@@ -1,0 +1,12 @@
+# Netlify serves only the page (HTML, CSS, JS, images).
+# Every /api/... call is forwarded to the Python server on Render.
+[build]
+  publish = "app/static"
+  command = ""
+
+# Replace the address below if Render gives your service a different one.
+[[redirects]]
+  from = "/api/*"
+  to = "https://xikomo-api.onrender.com/api/:splat"
+  status = 200
+  force = true

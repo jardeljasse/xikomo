@@ -1,0 +1,16 @@
+# What the web server needs (app/server.py). Data-preparation scripts
+# (prototipo.py, preparar_dados.py, treinar_modelo.py...) also need geopandas,
+# pandas and shapely, but those run on your computer, not on the server.
+fastapi==0.163.0
+uvicorn==0.54.0
+pydantic==2.14.3
+psycopg[binary]==3.3.9
+anthropic==2.8.0
+requests==2.34.2
+python-dotenv==1.2.4
+numpy==2.5.4
+rasterio==1.5.2
+pillow==13.0.0
+joblib==1.6.0
+scikit-learn==1.9.1   # must match the version that saved app/data/modelo_epoca.joblib
+tzdata==2026.6

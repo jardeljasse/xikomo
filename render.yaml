@@ -1,0 +1,21 @@
+# Python server (API) on Render. The page itself is served by Netlify (netlify.toml).
+# Secrets are NOT here: set them in the Render dashboard (Environment).
+services:
+  - type: web
+    name: xikomo-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.server:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/opcoes
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: SITE_URL
+        value: https://xikomo.netlify.app
+      - key: DATABASE_URL
+        sync: false
+      - key: ARCGIS_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
