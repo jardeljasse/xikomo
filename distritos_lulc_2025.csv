@@ -1,0 +1,160 @@
+Distrito,Provincia,Area (km2),Agua (%),Arvores (%),Vegetacao inundada (%),Culturas (%),Area construida (%),Solo nu (%),Pastagem / mato (%),Classe dominante,Leitura
+Ancuabe,Cabo Delgado,4941.0,0.0,31.8,0.0,0.6,0.6,0.0,66.9,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Balama,Cabo Delgado,5519.0,0.2,30.8,0.0,4.6,0.9,0.0,63.5,Pastagem / mato,sem sinal forte nesta camada
+Chiure,Cabo Delgado,5393.0,0.3,16.3,0.0,1.2,0.7,0.2,81.3,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Cidade De Pemba,Cabo Delgado,101.0,2.5,1.9,1.6,1.2,59.3,1.0,32.5,Area construida,pouca area cultivada visivel a esta resolucao; distrito urbanizado
+Ibo,Cabo Delgado,75.0,36.1,28.5,0.1,0.0,4.7,0.1,30.4,Agua,pouca area cultivada visivel a esta resolucao; zonas humidas ou alagadas importantes: risco de cheia
+Macomia,Cabo Delgado,4206.0,0.4,63.8,0.5,0.0,0.6,0.2,34.5,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Mecufi,Cabo Delgado,1239.0,0.2,7.8,0.3,0.0,1.3,0.1,90.2,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Meluco,Cabo Delgado,5752.0,0.1,57.5,0.0,0.0,0.1,0.0,42.3,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Metuge,Cabo Delgado,1594.0,0.7,41.6,0.9,0.7,0.9,0.6,54.7,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Mocimboa Da Praia,Cabo Delgado,3488.0,0.4,75.9,0.4,0.0,0.7,0.2,22.3,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Montepuez,Cabo Delgado,17872.0,0.1,36.5,0.0,0.8,0.4,0.1,62.1,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Mueda,Cabo Delgado,11271.0,0.4,56.2,0.0,0.0,0.5,0.3,42.6,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Muidumbe,Cabo Delgado,2104.0,0.4,76.6,0.0,0.0,1.2,0.2,21.6,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Namuno,Cabo Delgado,6004.0,0.1,15.1,0.0,4.4,0.6,0.0,79.7,Pastagem / mato,sem sinal forte nesta camada
+Nangade,Cabo Delgado,2978.0,1.1,74.6,0.1,0.0,0.5,0.8,22.9,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Palma,Cabo Delgado,3536.0,1.2,72.7,1.1,0.2,0.9,0.7,23.2,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Quissanga,Cabo Delgado,2124.0,1.8,52.9,0.7,0.0,0.2,0.5,43.8,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Bilene,Gaza,1669.0,3.0,33.1,1.1,1.9,5.9,0.3,54.7,Pastagem / mato,pouca area cultivada visivel a esta resolucao; distrito urbanizado
+Chibuto,Gaza,5617.0,4.1,49.9,0.8,7.1,1.9,0.0,36.1,Arvores,sem sinal forte nesta camada
+Chicualacuala,Gaza,11421.0,0.3,58.4,0.0,0.7,0.1,0.2,40.4,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Chigubo,Gaza,10142.0,0.0,71.0,0.0,0.3,0.0,0.0,28.7,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Chokwe,Gaza,2450.0,1.2,17.8,0.5,19.7,4.5,0.1,56.1,Pastagem / mato,muita area ja cultivada
+Chongoene,Gaza,1450.0,1.3,28.6,1.8,16.2,7.6,0.1,44.4,Pastagem / mato,muita area ja cultivada; distrito urbanizado
+Cidade De Xai-Xai,Gaza,136.0,4.3,4.4,2.3,20.5,32.2,0.0,36.4,Pastagem / mato,muita area ja cultivada; distrito urbanizado
+Guija,Gaza,4197.0,1.5,57.8,0.3,6.7,0.9,0.1,32.7,Arvores,dominado por floresta: abrir novos campos tem custo ambiental
+Limpopo,Gaza,1640.0,1.9,29.4,1.7,7.0,6.1,0.2,53.7,Pastagem / mato,distrito urbanizado
+Mabalane,Gaza,8949.0,0.3,51.1,0.0,2.1,0.1,0.1,46.2,Arvores,dominado por floresta: abrir novos campos tem custo ambiental
+Mandlakaze,Gaza,2996.0,2.4,42.1,3.1,1.3,2.1,0.0,49.0,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Mapai,Gaza,11632.0,0.1,70.9,0.0,0.5,0.1,0.0,28.3,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Massangena,Gaza,7565.0,0.2,76.6,0.0,0.4,0.1,0.2,22.5,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Massingir,Gaza,5696.0,2.6,53.0,0.0,2.7,0.3,0.0,41.4,Arvores,dominado por floresta: abrir novos campos tem custo ambiental
+Cidade De Inhambane,Inhambane,196.0,2.9,8.8,4.8,0.8,26.5,0.4,55.7,Pastagem / mato,pouca area cultivada visivel a esta resolucao; distrito urbanizado
+Funhalouro,Inhambane,13655.0,0.0,70.5,0.0,0.2,0.0,0.0,29.3,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Govuro,Inhambane,3978.0,1.4,69.5,2.2,0.6,0.3,1.4,24.6,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Homoine,Inhambane,1921.0,0.1,29.8,0.8,1.2,1.4,0.0,66.7,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Inharrime,Inhambane,2754.0,4.8,44.7,0.3,0.8,3.2,0.2,46.0,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Inhassoro,Inhambane,4755.0,0.3,77.3,0.2,0.0,0.6,0.5,21.1,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Jangamo,Inhambane,1295.0,1.1,18.9,0.9,0.1,2.7,0.3,76.1,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Mabote,Inhambane,15375.0,0.3,73.3,0.0,0.0,0.0,0.1,26.2,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Massinga,Inhambane,7422.0,0.1,70.8,0.1,0.2,1.0,0.0,27.7,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Maxixe,Inhambane,268.0,0.7,7.3,1.4,0.2,47.5,0.0,42.9,Area construida,pouca area cultivada visivel a esta resolucao; distrito urbanizado
+Morrumbene,Inhambane,2586.0,0.1,57.2,0.3,0.2,2.2,0.0,40.0,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Panda,Inhambane,6855.0,0.3,65.6,0.6,0.0,0.3,0.0,33.2,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Vilankulo,Inhambane,5861.0,1.5,65.7,1.4,0.2,1.0,0.2,30.0,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Zavala,Inhambane,2015.0,10.4,38.2,0.4,2.6,3.0,0.0,45.4,Pastagem / mato,zonas humidas ou alagadas importantes: risco de cheia
+Barue,Manica,5795.0,0.1,35.5,0.0,1.4,0.8,0.0,62.2,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Cidade De Chimoio,Manica,175.0,0.0,1.3,0.0,0.5,59.7,0.0,38.4,Area construida,pouca area cultivada visivel a esta resolucao; distrito urbanizado
+Gondola,Manica,2688.0,0.0,19.5,0.0,0.2,1.3,0.0,78.9,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Guro,Manica,6953.0,0.5,34.4,0.0,1.9,0.2,0.1,62.9,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Macate,Manica,1786.0,0.3,22.9,0.0,1.0,0.2,0.0,75.5,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Machaze,Manica,13333.0,0.1,68.8,0.0,0.6,0.1,0.2,30.2,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Macossa,Manica,9591.0,0.0,28.9,0.0,0.0,0.1,0.0,71.0,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Manica,Manica,2541.0,1.4,36.8,0.1,1.3,2.4,0.0,58.1,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Mossurize,Manica,5038.0,0.1,42.7,0.0,1.3,0.4,0.0,55.5,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Sussundenga,Manica,7135.0,0.9,53.7,0.0,1.7,0.4,0.1,43.3,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Tambara,Manica,4300.0,0.8,44.6,0.0,0.6,0.2,0.0,53.7,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Vanduzi,Manica,3169.0,0.1,14.7,0.0,0.7,1.6,0.0,82.9,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Boane,Maputo,805.0,3.0,13.6,3.9,11.3,28.9,0.0,39.3,Pastagem / mato,distrito urbanizado
+Cidade Da Matola,Maputo,369.0,0.7,1.4,0.5,0.1,91.7,0.0,5.6,Area construida,pouca area cultivada visivel a esta resolucao; distrito urbanizado
+Cidade De Maputo,Maputo,348.0,5.3,14.2,5.8,1.0,54.1,0.5,19.2,Area construida,pouca area cultivada visivel a esta resolucao; zonas humidas ou alagadas importantes: risco de cheia; distrito urbanizado
+Magude,Maputo,6980.0,0.2,54.2,0.1,1.7,0.6,0.0,43.3,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Manhiça,Maputo,2371.0,1.9,22.7,4.4,15.8,4.7,0.4,50.0,Pastagem / mato,muita area ja cultivada
+Marracuene,Maputo,698.0,3.8,16.3,3.0,5.2,22.7,1.0,48.1,Pastagem / mato,distrito urbanizado
+Matutuine,Maputo,5351.0,3.2,60.4,2.9,0.5,1.2,0.1,31.7,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Moamba,Maputo,4590.0,1.6,29.8,0.0,2.7,1.6,0.0,64.3,Pastagem / mato,sem sinal forte nesta camada
+Namaacha,Maputo,2157.0,1.5,28.2,0.0,4.7,1.8,0.0,63.7,Pastagem / mato,sem sinal forte nesta camada
+Angoche,Nampula,3029.0,2.2,14.9,3.6,0.9,0.6,1.4,76.4,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Cidade De Nampula,Nampula,331.0,0.2,0.7,0.0,0.0,52.3,0.0,46.7,Area construida,pouca area cultivada visivel a esta resolucao; distrito urbanizado
+Erati,Nampula,5723.0,0.5,8.8,0.0,0.6,0.5,0.2,89.4,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Ilha De Moçambique,Nampula,182.0,7.4,5.5,7.3,3.2,7.0,0.5,69.0,Pastagem / mato,zonas humidas ou alagadas importantes: risco de cheia; distrito urbanizado
+Lalaua,Nampula,4547.0,0.4,24.3,0.0,3.7,0.4,0.0,71.1,Pastagem / mato,sem sinal forte nesta camada
+Larde,Nampula,1850.0,1.3,27.1,1.2,0.2,0.6,0.3,69.4,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Liúpo,Nampula,2128.0,0.2,55.3,0.2,0.0,0.3,0.0,44.0,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Malema,Nampula,6068.0,0.2,25.0,0.0,2.8,0.5,0.1,71.5,Pastagem / mato,sem sinal forte nesta camada
+Meconta,Nampula,3690.0,0.1,14.7,0.0,0.2,0.7,0.0,84.3,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Mecuburi,Nampula,7214.0,0.2,20.7,0.0,2.3,0.3,0.0,76.5,Pastagem / mato,sem sinal forte nesta camada
+Memba,Nampula,4465.0,0.5,13.3,0.1,0.0,0.2,0.3,85.5,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Mogincual,Nampula,2291.0,0.9,50.9,1.1,0.0,0.1,0.1,46.8,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Mogovolas,Nampula,4727.0,0.1,7.0,0.0,0.3,0.4,0.0,92.2,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Moma,Nampula,3922.0,0.8,10.7,0.7,0.1,0.8,0.5,86.4,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Monapo,Nampula,3527.0,0.3,15.9,0.0,2.0,0.7,0.0,81.1,Pastagem / mato,sem sinal forte nesta camada
+Mossuril,Nampula,3382.0,1.3,25.8,1.2,0.0,0.6,0.3,70.8,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Muecate,Nampula,4123.0,0.1,24.8,0.0,0.1,0.2,0.0,74.8,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Murrupula,Nampula,3104.0,0.0,13.8,0.0,1.9,0.6,0.0,83.7,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Nacala,Nampula,320.0,2.6,6.5,0.6,0.1,17.7,0.4,72.1,Pastagem / mato,pouca area cultivada visivel a esta resolucao; distrito urbanizado
+Nacala-A-Velha,Nampula,1138.0,0.4,14.1,0.1,0.0,0.7,0.1,84.6,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Nacaroa,Nampula,2722.0,0.4,14.5,0.0,0.0,0.3,0.0,84.7,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Rapale,Nampula,3675.0,0.0,5.7,0.0,1.3,1.6,0.0,91.4,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Ribaue,Nampula,6270.0,0.0,12.2,0.0,1.0,0.6,0.0,86.2,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Chimbonila,Niassa,5437.0,0.1,25.5,0.0,4.6,0.3,0.0,69.5,Pastagem / mato,sem sinal forte nesta camada
+Cidade De Lichinga,Niassa,258.0,0.1,2.0,0.0,8.2,23.5,0.0,66.3,Pastagem / mato,distrito urbanizado
+Cuamba,Niassa,5363.0,0.0,19.5,0.0,1.5,1.1,0.0,77.8,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Ilha Licom,Niassa,29.0,44.7,0.8,0.0,0.0,32.4,0.0,22.1,Agua,pouca area cultivada visivel a esta resolucao; zonas humidas ou alagadas importantes: risco de cheia; distrito urbanizado
+Ilha Risunodo,Niassa,8.0,79.6,0.0,0.0,0.0,14.8,0.0,5.6,Agua,pouca area cultivada visivel a esta resolucao; zonas humidas ou alagadas importantes: risco de cheia; distrito urbanizado
+Lago,Niassa,6580.0,1.2,56.6,0.0,0.5,0.4,0.0,41.3,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Lago Niassa,Niassa,6959.0,99.9,0.0,0.0,0.0,0.0,0.0,0.1,Agua,pouca area cultivada visivel a esta resolucao; zonas humidas ou alagadas importantes: risco de cheia
+Majune,Niassa,11340.0,0.3,76.2,0.0,0.1,0.1,0.0,23.3,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Mandimba,Niassa,4697.0,0.5,33.3,0.2,1.4,0.7,0.0,63.9,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Marrupa,Niassa,17521.0,0.3,62.4,0.0,0.6,0.1,0.1,36.6,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Maua,Niassa,8075.0,0.0,68.5,0.0,0.2,0.1,0.0,31.2,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Mavago,Niassa,9231.0,0.2,65.9,0.0,0.2,0.0,0.0,33.7,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Mecanhelas,Niassa,5029.0,3.1,19.5,1.1,0.8,0.6,0.0,75.0,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Mecula,Niassa,18087.0,0.2,45.0,0.0,0.0,0.0,0.1,54.7,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Metarica,Niassa,4878.0,0.0,60.0,0.0,0.2,0.2,0.0,39.5,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Muembe,Niassa,5823.0,0.1,70.9,0.0,0.5,0.1,0.0,28.4,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Ngauma,Niassa,3017.0,0.0,23.3,0.0,0.6,0.4,0.0,75.7,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Nipepe,Niassa,5019.0,0.1,58.1,0.0,0.5,0.2,0.0,41.1,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Sanga,Niassa,12545.0,0.2,52.8,0.0,1.1,0.1,0.0,45.7,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Buzi,Sofala,7247.0,1.3,35.5,1.3,2.0,0.6,0.1,59.2,Pastagem / mato,sem sinal forte nesta camada
+Caia,Sofala,3596.0,1.7,34.5,0.3,2.8,0.8,0.0,59.8,Pastagem / mato,sem sinal forte nesta camada
+Chemba,Sofala,3991.0,1.4,36.6,0.1,0.9,0.1,0.0,60.9,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Cheringoma,Sofala,7127.0,0.2,72.5,0.8,0.1,0.1,0.0,26.4,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Chibabava,Sofala,7014.0,0.2,51.7,0.0,0.4,0.2,0.0,47.4,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Cidade Da Beira,Sofala,633.0,2.1,5.5,4.3,1.2,21.2,0.3,65.3,Pastagem / mato,pouca area cultivada visivel a esta resolucao; distrito urbanizado
+Dondo,Sofala,2315.0,1.2,15.5,0.9,3.8,3.2,0.2,75.2,Pastagem / mato,sem sinal forte nesta camada
+Gorongosa,Sofala,6800.0,0.5,36.5,0.1,1.2,0.2,0.0,61.4,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Machanga,Sofala,5732.0,3.0,40.1,4.1,0.7,0.3,0.6,51.2,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Maringue,Sofala,6170.0,0.0,31.1,0.0,0.8,0.1,0.1,67.9,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Marromeu,Sofala,5770.0,0.9,53.6,3.0,3.7,0.3,0.1,38.4,Arvores,dominado por floresta: abrir novos campos tem custo ambiental
+Muanza,Sofala,7531.0,0.5,57.1,0.2,0.2,0.1,0.1,41.8,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Nhamatanda,Sofala,4031.0,0.5,13.7,0.2,1.7,0.8,0.0,83.1,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Angonia,Tete,3272.0,0.0,6.8,0.0,13.5,3.4,0.0,76.3,Pastagem / mato,sem sinal forte nesta camada
+Cahora Bassa,Tete,8878.0,2.8,32.8,0.0,2.4,0.4,0.0,61.5,Pastagem / mato,sem sinal forte nesta camada
+Changara,Tete,6170.0,0.5,39.1,0.0,8.8,0.6,0.3,50.7,Pastagem / mato,sem sinal forte nesta camada
+Chifunde,Tete,9439.0,0.0,55.4,0.0,3.8,0.1,0.0,40.6,Arvores,dominado por floresta: abrir novos campos tem custo ambiental
+Chiuta,Tete,7149.0,0.3,53.9,0.0,0.8,0.1,0.0,44.9,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Cidade De Tete,Tete,288.0,9.4,11.3,0.0,2.8,29.6,0.2,46.6,Pastagem / mato,distrito urbanizado
+Doa,Tete,3646.0,2.0,30.6,0.4,0.7,0.2,0.0,66.1,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Macanga,Tete,7224.0,0.0,54.1,0.0,3.8,0.4,0.0,41.7,Arvores,dominado por floresta: abrir novos campos tem custo ambiental
+Magoe,Tete,8580.0,5.1,45.4,0.2,5.1,0.2,0.1,43.8,Arvores,sem sinal forte nesta camada
+Marara,Tete,2725.0,0.7,28.0,0.0,7.6,0.5,0.0,63.2,Pastagem / mato,sem sinal forte nesta camada
+Maravia,Tete,16766.0,3.8,51.8,0.0,3.0,0.0,0.1,41.4,Arvores,dominado por floresta: abrir novos campos tem custo ambiental
+Moatize,Tete,8461.0,0.8,42.9,0.0,1.1,0.6,0.0,54.6,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Mutarara,Tete,2741.0,3.0,19.2,8.6,2.8,1.0,0.0,65.3,Pastagem / mato,zonas humidas ou alagadas importantes: risco de cheia
+Tsangano,Tete,3675.0,0.1,23.0,0.0,8.1,1.0,0.0,67.8,Pastagem / mato,sem sinal forte nesta camada
+Zumbu,Tete,12036.0,1.4,55.1,0.0,2.5,0.0,0.1,40.8,Arvores,dominado por floresta: abrir novos campos tem custo ambiental
+Alto Molocue,Zambézia,6363.0,0.1,24.1,0.0,3.3,0.3,0.0,72.3,Pastagem / mato,sem sinal forte nesta camada
+Chinde,Zambézia,3128.0,4.8,39.1,3.5,1.0,0.7,0.2,50.6,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Cidade De Quelimane,Zambézia,122.0,4.6,7.3,23.5,8.2,35.3,0.0,21.0,Area construida,zonas humidas ou alagadas importantes: risco de cheia; distrito urbanizado
+Derre,Zambézia,4762.0,0.1,49.9,0.0,0.0,0.1,0.0,49.8,Arvores,pouca area cultivada visivel a esta resolucao
+Gile,Zambézia,9007.0,0.2,51.6,0.0,0.0,0.3,0.0,48.0,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Gurue,Zambézia,5672.0,0.0,12.7,0.0,4.5,0.7,0.0,82.0,Pastagem / mato,sem sinal forte nesta camada
+Ile,Zambézia,2943.0,0.3,14.1,0.0,1.1,0.2,0.0,84.4,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Inhassunge,Zambézia,758.0,6.6,20.4,18.9,5.8,3.7,0.3,44.3,Pastagem / mato,zonas humidas ou alagadas importantes: risco de cheia
+Luabo,Zambézia,1122.0,4.0,35.2,1.7,2.1,0.4,0.0,56.6,Pastagem / mato,sem sinal forte nesta camada
+Lugela,Zambézia,6149.0,0.4,52.3,0.0,0.4,0.1,0.0,46.8,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Maganja Da Costa,Zambézia,2882.0,1.4,44.8,3.2,0.5,1.7,0.1,48.4,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Maquival,Zambézia,619.0,5.8,15.1,13.9,8.9,4.8,0.2,51.3,Pastagem / mato,zonas humidas ou alagadas importantes: risco de cheia
+Milange,Zambézia,5521.0,0.2,8.2,0.0,11.0,0.8,0.0,79.8,Pastagem / mato,sem sinal forte nesta camada
+Mocuba,Zambézia,8802.0,0.4,48.7,0.1,0.4,0.6,0.0,49.8,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Mocubela,Zambézia,4777.0,0.6,68.2,0.9,0.1,0.3,0.1,29.8,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Molumbo,Zambézia,4337.0,0.4,5.5,0.1,4.7,0.5,0.0,88.8,Pastagem / mato,sem sinal forte nesta camada
+Mopeia,Zambézia,7678.0,0.9,57.3,1.2,0.4,0.3,0.0,39.9,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental
+Morrumbala,Zambézia,8062.0,0.2,32.3,3.4,1.2,0.3,0.0,62.5,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Mulevala,Zambézia,2710.0,0.1,42.7,0.0,0.2,0.1,0.0,56.8,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Namacurra,Zambézia,2028.0,1.9,28.8,3.8,0.6,2.7,0.1,62.1,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Namarroi,Zambézia,3070.0,0.2,18.2,0.0,1.0,0.2,0.0,80.4,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Nicoadala,Zambézia,2771.0,0.9,43.3,2.1,1.5,2.0,0.0,50.1,Pastagem / mato,pouca area cultivada visivel a esta resolucao
+Pebane,Zambézia,10137.0,0.9,59.6,1.0,0.0,0.2,0.2,38.0,Arvores,pouca area cultivada visivel a esta resolucao; dominado por floresta: abrir novos campos tem custo ambiental

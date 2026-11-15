@@ -1,0 +1,245 @@
+{
+ "nome": "regressao-logistica-enso-v1",
+ "treinado_em": "2026-11-15",
+ "entradas": [
+  "oni",
+  "oni_tendencia",
+  "oni_x_lat",
+  "oni_x_lon",
+  "lat",
+  "lon",
+  "antecedencia"
+ ],
+ "classes": [
+  "seca",
+  "normal",
+  "chuvosa"
+ ],
+ "meses_de_sementeira": [
+  10,
+  11,
+  12,
+  1
+ ],
+ "antecedencias_meses": [
+  2,
+  3,
+  4
+ ],
+ "exemplos": 50085,
+ "epocas": 27,
+ "oni_mais_recente": {
+  "ano": 2026,
+  "mes": 9,
+  "valor": 2.46
+ },
+ "oni_intervalo_treino": [
+  -1.57,
+  2.45
+ ],
+ "peso_do_modelo": 0.75,
+ "frequencia_por_regiao": {
+  "sul": [
+   0.24,
+   0.467,
+   0.292
+  ],
+  "centro": [
+   0.215,
+   0.588,
+   0.197
+  ],
+  "norte": [
+   0.147,
+   0.657,
+   0.196
+  ]
+ },
+ "validacao": {
+  "geral": {
+   "exemplos": 50085,
+   "acerto_modelo": 0.589,
+   "acerto_frequencia": 0.59,
+   "brier_modelo": 0.5597,
+   "brier_frequencia": 0.5707,
+   "ganho": 0.019
+  },
+  "por_regiao": {
+   "sul": {
+    "exemplos": 11655,
+    "acerto_modelo": 0.461,
+    "acerto_frequencia": 0.467,
+    "brier_modelo": 0.6254,
+    "brier_frequencia": 0.6565,
+    "ganho": 0.047
+   },
+   "centro": {
+    "exemplos": 16695,
+    "acerto_modelo": 0.588,
+    "acerto_frequencia": 0.588,
+    "brier_modelo": 0.5662,
+    "brier_frequencia": 0.5813,
+    "ganho": 0.026
+   },
+   "norte": {
+    "exemplos": 21735,
+    "acerto_modelo": 0.657,
+    "acerto_frequencia": 0.657,
+    "brier_modelo": 0.5194,
+    "brier_frequencia": 0.5166,
+    "ganho": -0.006
+   }
+  },
+  "epocas_em_que_ganhou": 16,
+  "sem_calibrar": {
+   "geral": {
+    "exemplos": 50085,
+    "acerto_modelo": 0.589,
+    "acerto_frequencia": 0.59,
+    "brier_modelo": 0.5608,
+    "brier_frequencia": 0.5707,
+    "ganho": 0.017
+   },
+   "por_regiao": {
+    "sul": {
+     "exemplos": 11655,
+     "acerto_modelo": 0.456,
+     "acerto_frequencia": 0.467,
+     "brier_modelo": 0.6277,
+     "brier_frequencia": 0.6565,
+     "ganho": 0.044
+    },
+    "centro": {
+     "exemplos": 16695,
+     "acerto_modelo": 0.592,
+     "acerto_frequencia": 0.588,
+     "brier_modelo": 0.5647,
+     "brier_frequencia": 0.5813,
+     "ganho": 0.029
+    },
+    "norte": {
+     "exemplos": 21735,
+     "acerto_modelo": 0.657,
+     "acerto_frequencia": 0.657,
+     "brier_modelo": 0.5219,
+     "brier_frequencia": 0.5166,
+     "ganho": -0.01
+    }
+   },
+   "epocas_em_que_ganhou": 15
+  }
+ },
+ "todos_os_candidatos": {
+  "regressao-logistica-enso-v1": {
+   "geral": {
+    "exemplos": 50085,
+    "acerto_modelo": 0.589,
+    "acerto_frequencia": 0.59,
+    "brier_modelo": 0.5597,
+    "brier_frequencia": 0.5707,
+    "ganho": 0.019
+   },
+   "por_regiao": {
+    "sul": {
+     "exemplos": 11655,
+     "acerto_modelo": 0.461,
+     "acerto_frequencia": 0.467,
+     "brier_modelo": 0.6254,
+     "brier_frequencia": 0.6565,
+     "ganho": 0.047
+    },
+    "centro": {
+     "exemplos": 16695,
+     "acerto_modelo": 0.588,
+     "acerto_frequencia": 0.588,
+     "brier_modelo": 0.5662,
+     "brier_frequencia": 0.5813,
+     "ganho": 0.026
+    },
+    "norte": {
+     "exemplos": 21735,
+     "acerto_modelo": 0.657,
+     "acerto_frequencia": 0.657,
+     "brier_modelo": 0.5194,
+     "brier_frequencia": 0.5166,
+     "ganho": -0.006
+    }
+   },
+   "epocas_em_que_ganhou": 16,
+   "sem_calibrar": {
+    "geral": {
+     "exemplos": 50085,
+     "acerto_modelo": 0.589,
+     "acerto_frequencia": 0.59,
+     "brier_modelo": 0.5608,
+     "brier_frequencia": 0.5707,
+     "ganho": 0.017
+    },
+    "por_regiao": {
+     "sul": {
+      "exemplos": 11655,
+      "acerto_modelo": 0.456,
+      "acerto_frequencia": 0.467,
+      "brier_modelo": 0.6277,
+      "brier_frequencia": 0.6565,
+      "ganho": 0.044
+     },
+     "centro": {
+      "exemplos": 16695,
+      "acerto_modelo": 0.592,
+      "acerto_frequencia": 0.588,
+      "brier_modelo": 0.5647,
+      "brier_frequencia": 0.5813,
+      "ganho": 0.029
+     },
+     "norte": {
+      "exemplos": 21735,
+      "acerto_modelo": 0.657,
+      "acerto_frequencia": 0.657,
+      "brier_modelo": 0.5219,
+      "brier_frequencia": 0.5166,
+      "ganho": -0.01
+     }
+    },
+    "epocas_em_que_ganhou": 15
+   }
+  },
+  "gradient-boosting-enso-v1": {
+   "geral": {
+    "exemplos": 50085,
+    "acerto_modelo": 0.581,
+    "acerto_frequencia": 0.59,
+    "brier_modelo": 0.5797,
+    "brier_frequencia": 0.5707,
+    "ganho": -0.016
+   },
+   "por_regiao": {
+    "sul": {
+     "exemplos": 11655,
+     "acerto_modelo": 0.437,
+     "acerto_frequencia": 0.467,
+     "brier_modelo": 0.6574,
+     "brier_frequencia": 0.6565,
+     "ganho": -0.001
+    },
+    "centro": {
+     "exemplos": 16695,
+     "acerto_modelo": 0.602,
+     "acerto_frequencia": 0.588,
+     "brier_modelo": 0.5631,
+     "brier_frequencia": 0.5813,
+     "ganho": 0.031
+    },
+    "norte": {
+     "exemplos": 21735,
+     "acerto_modelo": 0.641,
+     "acerto_frequencia": 0.657,
+     "brier_modelo": 0.5509,
+     "brier_frequencia": 0.5166,
+     "ganho": -0.066
+    }
+   },
+   "epocas_em_que_ganhou": 13
+  }
+ }
+}

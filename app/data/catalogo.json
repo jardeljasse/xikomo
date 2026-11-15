@@ -1,0 +1,1295 @@
+{
+ "culturas": [
+  {
+   "id": "milho",
+   "nome": "Milho",
+   "cientifico": "Zea mays",
+   "tipo": "cereal",
+   "ciclo": [
+    90,
+    120
+   ],
+   "temp": [
+    10,
+    18,
+    32,
+    40
+   ],
+   "chuva": [
+    350,
+    500,
+    900,
+    1500
+   ],
+   "ph": [
+    4.5,
+    5.5,
+    7.0,
+    8.5
+   ],
+   "textura": [
+    "franco",
+    "argiloso"
+   ],
+   "seca": 0.3,
+   "renda": 0.5,
+   "solo": 0.1,
+   "descricao": "Cereal base da alimentação, bem adaptado às principais zonas agrícolas.",
+   "sinonimos": [
+    "maize",
+    "corn"
+   ]
+  },
+  {
+   "id": "mapira",
+   "nome": "Mapira",
+   "cientifico": "Sorghum bicolor",
+   "tipo": "cereal",
+   "ciclo": [
+    100,
+    130
+   ],
+   "temp": [
+    8,
+    24,
+    35,
+    42
+   ],
+   "chuva": [
+    250,
+    400,
+    800,
+    1500
+   ],
+   "ph": [
+    5.0,
+    5.5,
+    7.5,
+    8.5
+   ],
+   "textura": [
+    "franco",
+    "argiloso",
+    "arenoso"
+   ],
+   "seca": 0.9,
+   "renda": 0.3,
+   "solo": 0.1,
+   "descricao": "Cereal resistente ao calor e a períodos secos.",
+   "sinonimos": [
+    "sorgo",
+    "sorghum"
+   ]
+  },
+  {
+   "id": "mexoeira",
+   "nome": "Mexoeira",
+   "cientifico": "Pennisetum glaucum",
+   "tipo": "cereal",
+   "ciclo": [
+    75,
+    110
+   ],
+   "temp": [
+    12,
+    25,
+    35,
+    42
+   ],
+   "chuva": [
+    200,
+    300,
+    700,
+    1200
+   ],
+   "ph": [
+    4.5,
+    5.0,
+    7.0,
+    8.3
+   ],
+   "textura": [
+    "arenoso",
+    "franco"
+   ],
+   "seca": 1.0,
+   "renda": 0.2,
+   "solo": 0.1,
+   "descricao": "O cereal mais tolerante à seca, para solos arenosos e pobres.",
+   "sinonimos": [
+    "milheto",
+    "millet",
+    "mexoeira"
+   ]
+  },
+  {
+   "id": "arroz",
+   "nome": "Arroz",
+   "cientifico": "Oryza sativa",
+   "tipo": "cereal",
+   "ciclo": [
+    100,
+    140
+   ],
+   "temp": [
+    10,
+    20,
+    30,
+    36
+   ],
+   "chuva": [
+    650,
+    900,
+    1500,
+    3000
+   ],
+   "ph": [
+    4.5,
+    5.5,
+    7.0,
+    9.0
+   ],
+   "textura": [
+    "argiloso"
+   ],
+   "seca": 0.0,
+   "renda": 0.6,
+   "solo": 0.0,
+   "descricao": "Para baixas e vales com muita água e solos que a retêm.",
+   "sinonimos": [
+    "rice"
+   ]
+  },
+  {
+   "id": "nhemba",
+   "nome": "Feijão nhemba",
+   "cientifico": "Vigna unguiculata",
+   "tipo": "leguminosa",
+   "ciclo": [
+    70,
+    110
+   ],
+   "temp": [
+    15,
+    25,
+    35,
+    40
+   ],
+   "chuva": [
+    250,
+    400,
+    800,
+    1500
+   ],
+   "ph": [
+    4.5,
+    5.5,
+    7.5,
+    8.8
+   ],
+   "textura": [
+    "arenoso",
+    "franco"
+   ],
+   "seca": 0.8,
+   "renda": 0.4,
+   "solo": 0.8,
+   "descricao": "Leguminosa de ciclo curto que tolera seca e fixa azoto no solo.",
+   "sinonimos": [
+    "feijao nhemba",
+    "nhemba",
+    "cowpea",
+    "feijao frade"
+   ]
+  },
+  {
+   "id": "amendoim",
+   "nome": "Amendoim",
+   "cientifico": "Arachis hypogaea",
+   "tipo": "leguminosa",
+   "ciclo": [
+    100,
+    140
+   ],
+   "temp": [
+    10,
+    22,
+    32,
+    40
+   ],
+   "chuva": [
+    300,
+    450,
+    900,
+    1500
+   ],
+   "ph": [
+    4.5,
+    5.5,
+    7.0,
+    8.5
+   ],
+   "textura": [
+    "arenoso",
+    "franco"
+   ],
+   "seca": 0.6,
+   "renda": 0.7,
+   "solo": 0.7,
+   "descricao": "Leguminosa de rendimento, prefere solos soltos e arenosos.",
+   "sinonimos": [
+    "mendoim",
+    "groundnut",
+    "peanut"
+   ]
+  },
+  {
+   "id": "boer",
+   "nome": "Feijão boer",
+   "cientifico": "Cajanus cajan",
+   "tipo": "leguminosa",
+   "ciclo": [
+    150,
+    240
+   ],
+   "temp": [
+    10,
+    18,
+    35,
+    42
+   ],
+   "chuva": [
+    350,
+    500,
+    1000,
+    2500
+   ],
+   "ph": [
+    4.5,
+    5.0,
+    7.0,
+    8.4
+   ],
+   "textura": [
+    "franco",
+    "argiloso",
+    "arenoso"
+   ],
+   "seca": 0.8,
+   "renda": 0.6,
+   "solo": 1.0,
+   "descricao": "Leguminosa de raiz profunda, boa em consociação com milho.",
+   "sinonimos": [
+    "feijao boer",
+    "boer",
+    "ervilha de pombo",
+    "pigeon pea"
+   ]
+  },
+  {
+   "id": "soja",
+   "nome": "Soja",
+   "cientifico": "Glycine max",
+   "tipo": "leguminosa",
+   "ciclo": [
+    100,
+    130
+   ],
+   "temp": [
+    10,
+    20,
+    32,
+    38
+   ],
+   "chuva": [
+    400,
+    500,
+    900,
+    1500
+   ],
+   "ph": [
+    4.5,
+    5.5,
+    6.8,
+    8.5
+   ],
+   "textura": [
+    "franco",
+    "argiloso"
+   ],
+   "seca": 0.3,
+   "renda": 0.8,
+   "solo": 0.8,
+   "descricao": "Leguminosa de rendimento para zonas com chuva regular.",
+   "sinonimos": [
+    "soya",
+    "soybean"
+   ]
+  },
+  {
+   "id": "feijao",
+   "nome": "Feijão vulgar",
+   "cientifico": "Phaseolus vulgaris",
+   "tipo": "leguminosa",
+   "ciclo": [
+    70,
+    100
+   ],
+   "temp": [
+    7,
+    16,
+    25,
+    32
+   ],
+   "chuva": [
+    300,
+    350,
+    600,
+    1500
+   ],
+   "ph": [
+    4.5,
+    5.5,
+    7.5,
+    8.5
+   ],
+   "textura": [
+    "franco"
+   ],
+   "seca": 0.2,
+   "renda": 0.7,
+   "solo": 0.6,
+   "descricao": "Para zonas altas e frescas, ou para a época fresca.",
+   "sinonimos": [
+    "feijao vulgar",
+    "feijao manteiga",
+    "feijao comum",
+    "feijao"
+   ]
+  },
+  {
+   "id": "mandioca",
+   "nome": "Mandioca",
+   "cientifico": "Manihot esculenta",
+   "tipo": "raiz",
+   "ciclo": [
+    270,
+    365
+   ],
+   "temp": [
+    10,
+    20,
+    30,
+    36
+   ],
+   "chuva": [
+    500,
+    900,
+    1500,
+    4000
+   ],
+   "ph": [
+    4.0,
+    5.0,
+    7.5,
+    9.0
+   ],
+   "textura": [
+    "arenoso",
+    "franco"
+   ],
+   "seca": 0.8,
+   "renda": 0.4,
+   "solo": 0.0,
+   "descricao": "Raiz rústica que tolera veranicos e solos menos férteis.",
+   "sinonimos": [
+    "cassava",
+    "macaxeira"
+   ]
+  },
+  {
+   "id": "batata_doce",
+   "nome": "Batata-doce",
+   "cientifico": "Ipomoea batatas",
+   "tipo": "raiz",
+   "ciclo": [
+    90,
+    150
+   ],
+   "temp": [
+    10,
+    18,
+    28,
+    38
+   ],
+   "chuva": [
+    350,
+    500,
+    1000,
+    2000
+   ],
+   "ph": [
+    4.2,
+    5.5,
+    6.8,
+    7.7
+   ],
+   "textura": [
+    "arenoso",
+    "franco"
+   ],
+   "seca": 0.5,
+   "renda": 0.5,
+   "solo": 0.2,
+   "descricao": "Raiz de ciclo curto, cobre bem o solo.",
+   "sinonimos": [
+    "batata doce",
+    "sweet potato"
+   ]
+  },
+  {
+   "id": "batata_reno",
+   "nome": "Batata reno",
+   "cientifico": "Solanum tuberosum",
+   "tipo": "raiz",
+   "ciclo": [
+    90,
+    120
+   ],
+   "temp": [
+    7,
+    15,
+    22,
+    30
+   ],
+   "chuva": [
+    350,
+    500,
+    800,
+    1500
+   ],
+   "ph": [
+    4.8,
+    5.2,
+    6.5,
+    8.0
+   ],
+   "textura": [
+    "franco",
+    "arenoso"
+   ],
+   "seca": 0.2,
+   "renda": 0.8,
+   "solo": 0.0,
+   "descricao": "Tubérculo de rendimento para zonas altas e frescas, ou para a época fresca com rega.",
+   "sinonimos": [
+    "batata reno",
+    "batata inglesa",
+    "batata",
+    "potato"
+   ]
+  },
+  {
+   "id": "gergelim",
+   "nome": "Gergelim",
+   "cientifico": "Sesamum indicum",
+   "tipo": "oleaginosa",
+   "ciclo": [
+    90,
+    120
+   ],
+   "temp": [
+    10,
+    22,
+    32,
+    40
+   ],
+   "chuva": [
+    250,
+    350,
+    650,
+    1000
+   ],
+   "ph": [
+    4.5,
+    5.5,
+    7.5,
+    8.7
+   ],
+   "textura": [
+    "franco",
+    "arenoso"
+   ],
+   "seca": 0.7,
+   "renda": 0.9,
+   "solo": 0.1,
+   "descricao": "Cultura de rendimento que precisa de pouca água.",
+   "sinonimos": [
+    "sesamo",
+    "sesame"
+   ]
+  },
+  {
+   "id": "feijao_preto",
+   "nome": "Feijão preto",
+   "cientifico": "Phaseolus vulgaris",
+   "tipo": "leguminosa",
+   "ciclo": [
+    70,
+    100
+   ],
+   "temp": [
+    7,
+    16,
+    26,
+    32
+   ],
+   "chuva": [
+    300,
+    350,
+    600,
+    1500
+   ],
+   "ph": [
+    4.5,
+    5.5,
+    7.5,
+    8.5
+   ],
+   "textura": [
+    "franco"
+   ],
+   "seca": 0.2,
+   "renda": 0.6,
+   "solo": 0.6,
+   "descricao": "Feijão de grão preto, para zonas frescas ou para a época fresca.",
+   "sinonimos": [
+    "feijao preto",
+    "black beans"
+   ]
+  },
+  {
+   "id": "tomate",
+   "nome": "Tomate",
+   "cientifico": "Solanum lycopersicum",
+   "tipo": "horticola",
+   "ciclo": [
+    90,
+    130
+   ],
+   "temp": [
+    10,
+    18,
+    27,
+    35
+   ],
+   "chuva": [
+    400,
+    500,
+    900,
+    1600
+   ],
+   "ph": [
+    5.0,
+    5.5,
+    7.0,
+    7.8
+   ],
+   "textura": [
+    "franco"
+   ],
+   "seca": 0.2,
+   "renda": 0.9,
+   "solo": 0.0,
+   "descricao": "Hortícola de bom rendimento; normalmente da época fresca e com rega.",
+   "sinonimos": [
+    "tomato"
+   ]
+  },
+  {
+   "id": "cebola",
+   "nome": "Cebola",
+   "cientifico": "Allium cepa",
+   "tipo": "horticola",
+   "ciclo": [
+    100,
+    150
+   ],
+   "temp": [
+    7,
+    13,
+    25,
+    32
+   ],
+   "chuva": [
+    350,
+    400,
+    750,
+    1500
+   ],
+   "ph": [
+    5.5,
+    6.0,
+    7.0,
+    8.0
+   ],
+   "textura": [
+    "franco",
+    "arenoso"
+   ],
+   "seca": 0.2,
+   "renda": 0.8,
+   "solo": 0.0,
+   "descricao": "Hortícola da época fresca; guarda-se bem depois da colheita.",
+   "sinonimos": [
+    "onion"
+   ]
+  },
+  {
+   "id": "alho",
+   "nome": "Alho",
+   "cientifico": "Allium sativum",
+   "tipo": "horticola",
+   "ciclo": [
+    120,
+    180
+   ],
+   "temp": [
+    5,
+    12,
+    24,
+    30
+   ],
+   "chuva": [
+    350,
+    500,
+    800,
+    1400
+   ],
+   "ph": [
+    5.5,
+    6.0,
+    7.5,
+    8.3
+   ],
+   "textura": [
+    "franco",
+    "arenoso"
+   ],
+   "seca": 0.2,
+   "renda": 0.8,
+   "solo": 0.0,
+   "descricao": "Hortícola de ciclo longo que prefere tempo fresco.",
+   "sinonimos": [
+    "garlic"
+   ]
+  },
+  {
+   "id": "pimento",
+   "nome": "Pimento",
+   "cientifico": "Capsicum annuum",
+   "tipo": "horticola",
+   "ciclo": [
+    90,
+    130
+   ],
+   "temp": [
+    10,
+    18,
+    28,
+    35
+   ],
+   "chuva": [
+    400,
+    600,
+    1000,
+    1800
+   ],
+   "ph": [
+    5.0,
+    5.5,
+    7.0,
+    8.0
+   ],
+   "textura": [
+    "franco"
+   ],
+   "seca": 0.2,
+   "renda": 0.8,
+   "solo": 0.0,
+   "descricao": "Hortícola de rendimento; precisa de água regular.",
+   "sinonimos": [
+    "pimentao",
+    "bell pepper",
+    "piri piri doce"
+   ]
+  },
+  {
+   "id": "couve",
+   "nome": "Couve",
+   "cientifico": "Brassica oleracea var. acephala",
+   "tipo": "horticola",
+   "ciclo": [
+    60,
+    100
+   ],
+   "temp": [
+    5,
+    15,
+    24,
+    32
+   ],
+   "chuva": [
+    300,
+    400,
+    800,
+    1500
+   ],
+   "ph": [
+    5.5,
+    6.0,
+    7.5,
+    8.0
+   ],
+   "textura": [
+    "franco",
+    "argiloso"
+   ],
+   "seca": 0.3,
+   "renda": 0.6,
+   "solo": 0.0,
+   "descricao": "Hortícola de folha, de ciclo curto, colhida várias vezes.",
+   "sinonimos": [
+    "kale",
+    "couve galega"
+   ]
+  },
+  {
+   "id": "repolho",
+   "nome": "Repolho",
+   "cientifico": "Brassica oleracea var. capitata",
+   "tipo": "horticola",
+   "ciclo": [
+    80,
+    120
+   ],
+   "temp": [
+    5,
+    15,
+    22,
+    30
+   ],
+   "chuva": [
+    350,
+    450,
+    800,
+    1500
+   ],
+   "ph": [
+    5.5,
+    6.0,
+    7.5,
+    8.0
+   ],
+   "textura": [
+    "franco",
+    "argiloso"
+   ],
+   "seca": 0.2,
+   "renda": 0.7,
+   "solo": 0.0,
+   "descricao": "Hortícola da época fresca; sofre com o calor.",
+   "sinonimos": [
+    "cabbage"
+   ]
+  },
+  {
+   "id": "cenoura",
+   "nome": "Cenoura",
+   "cientifico": "Daucus carota",
+   "tipo": "horticola",
+   "ciclo": [
+    80,
+    120
+   ],
+   "temp": [
+    5,
+    15,
+    22,
+    30
+   ],
+   "chuva": [
+    350,
+    400,
+    700,
+    1500
+   ],
+   "ph": [
+    5.5,
+    6.0,
+    7.0,
+    7.8
+   ],
+   "textura": [
+    "arenoso",
+    "franco"
+   ],
+   "seca": 0.2,
+   "renda": 0.7,
+   "solo": 0.0,
+   "descricao": "Raiz hortícola para solos soltos e tempo fresco.",
+   "sinonimos": [
+    "carrot"
+   ]
+  },
+  {
+   "id": "cana",
+   "nome": "Cana-de-açúcar",
+   "cientifico": "Saccharum officinarum",
+   "tipo": "permanente",
+   "ciclo": [
+    300,
+    450
+   ],
+   "temp": [
+    15,
+    24,
+    32,
+    38
+   ],
+   "chuva": [
+    800,
+    1500,
+    2500,
+    5000
+   ],
+   "ph": [
+    4.5,
+    5.5,
+    7.5,
+    8.5
+   ],
+   "textura": [
+    "franco",
+    "argiloso"
+   ],
+   "seca": 0.2,
+   "renda": 0.8,
+   "solo": 0.0,
+   "descricao": "Fica vários anos no terreno; precisa de muita água ou de rega.",
+   "sinonimos": [
+    "cana doce",
+    "cana de acucar",
+    "cana",
+    "sugarcane"
+   ]
+  },
+  {
+   "id": "banana",
+   "nome": "Bananeira",
+   "cientifico": "Musa spp.",
+   "tipo": "permanente",
+   "ciclo": [
+    300,
+    450
+   ],
+   "temp": [
+    15,
+    24,
+    30,
+    38
+   ],
+   "chuva": [
+    650,
+    1200,
+    2500,
+    5000
+   ],
+   "ph": [
+    4.5,
+    5.5,
+    7.5,
+    8.0
+   ],
+   "textura": [
+    "franco"
+   ],
+   "seca": 0.2,
+   "renda": 0.8,
+   "solo": 0.0,
+   "descricao": "Produz todo o ano em zonas húmidas e junto a cursos de água.",
+   "sinonimos": [
+    "banana",
+    "bananeira"
+   ]
+  },
+  {
+   "id": "lichia",
+   "nome": "Lichia",
+   "cientifico": "Litchi chinensis",
+   "tipo": "permanente",
+   "ciclo": [
+    1100,
+    1800
+   ],
+   "temp": [
+    10,
+    20,
+    28,
+    36
+   ],
+   "chuva": [
+    700,
+    1200,
+    1700,
+    2800
+   ],
+   "ph": [
+    4.5,
+    5.0,
+    6.5,
+    7.5
+   ],
+   "textura": [
+    "franco"
+   ],
+   "seca": 0.3,
+   "renda": 0.9,
+   "solo": 0.0,
+   "descricao": "Árvore de fruto; demora anos a produzir e precisa de um inverno fresco e seco.",
+   "sinonimos": [
+    "lichia",
+    "litchi",
+    "lychee"
+   ]
+  }
+ ],
+ "pragas": [
+  {
+   "id": "lagarta_funil",
+   "nome": "Lagarta do funil",
+   "culturas": [
+    "milho",
+    "mapira",
+    "mexoeira"
+   ],
+   "sinonimos": [
+    "lagarta do funil",
+    "lagarta",
+    "lagarta do cartucho",
+    "armyworm"
+   ]
+  },
+  {
+   "id": "striga",
+   "nome": "Striga (erva-feiticeira)",
+   "culturas": [
+    "milho",
+    "mapira",
+    "mexoeira"
+   ],
+   "sinonimos": [
+    "striga",
+    "erva feiticeira",
+    "feiticeira"
+   ]
+  },
+  {
+   "id": "afideos",
+   "nome": "Afídeos / pulgões",
+   "culturas": [
+    "nhemba",
+    "feijao",
+    "amendoim"
+   ],
+   "sinonimos": [
+    "afideos",
+    "afidios",
+    "pulgao",
+    "pulgoes"
+   ]
+  },
+  {
+   "id": "nematodos",
+   "nome": "Nematodos",
+   "culturas": [
+    "batata_doce",
+    "soja",
+    "amendoim"
+   ],
+   "sinonimos": [
+    "nematodos",
+    "nematodes",
+    "nematoides"
+   ]
+  },
+  {
+   "id": "mosca_branca",
+   "nome": "Mosca-branca",
+   "culturas": [
+    "mandioca",
+    "batata_doce",
+    "feijao"
+   ],
+   "sinonimos": [
+    "mosca branca"
+   ]
+  }
+ ],
+ "rotacoes": [
+  {
+   "id": "actual",
+   "ordem": 1,
+   "prioridades": [
+    "*"
+   ],
+   "nome": "Prática actual",
+   "factor": 0.8,
+   "ordenar": "compatibilidade",
+   "passos": [
+    {
+     "actual": true
+    },
+    {
+     "actual": true
+    },
+    {
+     "actual": true
+    }
+   ],
+   "resumo": "{c1} todas as épocas",
+   "porque": "É a sua prática actual; se não indicou a cultura anterior, usa-se milho contínuo, a prática mais comum. Serve de referência para as outras opções.",
+   "beneficios": [
+    "sem custos novos de semente ou aprendizagem",
+    "mercado e uso já conhecidos"
+   ],
+   "riscos": [
+    "pragas e doenças acumulam-se de época para época",
+    "o solo perde fertilidade sem leguminosas"
+   ],
+   "lacunas": [
+    "não há dados de produtividade medidos na parcela",
+    "solo estimado por modelo: uma análise de solo local daria mais certeza"
+   ]
+  },
+  {
+   "id": "cereal_leguminosa",
+   "ordem": 2,
+   "prioridades": [
+    "*"
+   ],
+   "nome": "Cereal e leguminosa",
+   "factor": 1.05,
+   "ordenar": "compatibilidade",
+   "passos": [
+    {
+     "tipos": [
+      "cereal"
+     ]
+    },
+    {
+     "tipos": [
+      "leguminosa"
+     ]
+    },
+    {
+     "repetir": 1
+    }
+   ],
+   "resumo": "{c1} alternado com {c2_min}",
+   "porque": "{c1} e {c2_min} são o cereal e a leguminosa com melhor compatibilidade aqui. A leguminosa fixa azoto que o cereal seguinte aproveita.",
+   "beneficios": [
+    "menos necessidade de adubo azotado",
+    "quebra o ciclo de pragas do cereal",
+    "duas fontes de alimento ou de venda"
+   ],
+   "riscos": [
+    "a leguminosa pode ter menos mercado local",
+    "exige semente de duas culturas"
+   ],
+   "lacunas": [
+    "não há dados de produtividade medidos na parcela",
+    "solo estimado por modelo: uma análise de solo local daria mais certeza"
+   ]
+  },
+  {
+   "id": "seca",
+   "ordem": 3,
+   "prioridades": [
+    "agua"
+   ],
+   "nome": "Resistente à seca",
+   "factor": 1.05,
+   "ordenar": "seca",
+   "passos": [
+    {
+     "tipos": [
+      "cereal"
+     ]
+    },
+    {
+     "tipos": [
+      "leguminosa"
+     ]
+    },
+    {
+     "tipos": [
+      "raiz",
+      "oleaginosa",
+      "horticola"
+     ]
+    }
+   ],
+   "resumo": "{c1} → {c2} → {c3}",
+   "porque": "Junta as culturas que melhor aguentam falta de chuva neste local.",
+   "beneficios": [
+    "colheita mais segura em anos secos",
+    "menos dependência de rega"
+   ],
+   "riscos": [
+    "rendimento mais baixo em anos de boa chuva"
+   ],
+   "lacunas": [
+    "não há dados de produtividade medidos na parcela",
+    "solo estimado por modelo: uma análise de solo local daria mais certeza",
+    "preços de mercado não estão incluídos na análise"
+   ]
+  },
+  {
+   "id": "venda",
+   "ordem": 3,
+   "prioridades": [
+    "renda"
+   ],
+   "nome": "Virada para a venda",
+   "factor": 1.0,
+   "ordenar": "renda",
+   "passos": [
+    {
+     "tipos": [
+      "oleaginosa",
+      "leguminosa",
+      "horticola"
+     ]
+    },
+    {
+     "tipos": [
+      "cereal"
+     ],
+     "ordenar": "compatibilidade"
+    },
+    {
+     "tipos": [
+      "leguminosa",
+      "oleaginosa"
+     ]
+    }
+   ],
+   "resumo": "{c1} → {c2} → {c3}",
+   "porque": "Dá prioridade a culturas com bom valor de venda que também se adaptam ao local.",
+   "beneficios": [
+    "mais rendimento em dinheiro",
+    "mantém um cereal para consumo"
+   ],
+   "riscos": [
+    "depende de preços e de acesso ao mercado",
+    "mais risco se a chuva falhar"
+   ],
+   "lacunas": [
+    "não há dados de produtividade medidos na parcela",
+    "solo estimado por modelo: uma análise de solo local daria mais certeza",
+    "preços de mercado não estão incluídos na análise"
+   ]
+  },
+  {
+   "id": "solo",
+   "ordem": 3,
+   "prioridades": [
+    "solo"
+   ],
+   "nome": "Recuperar o solo",
+   "factor": 1.08,
+   "ordenar": "compatibilidade",
+   "passos": [
+    {
+     "tipos": [
+      "cereal"
+     ]
+    },
+    {
+     "tipos": [
+      "leguminosa"
+     ]
+    },
+    {
+     "tipos": [
+      "raiz",
+      "oleaginosa",
+      "horticola"
+     ]
+    }
+   ],
+   "resumo": "{c1} → {c2} → {c3}",
+   "porque": "Alterna três grupos de culturas e mantém o solo coberto, o que melhora a fertilidade e reduz a erosão. Entre culturas, semear uma cobertura (ex.: mucuna) em vez de deixar o solo nu.",
+   "beneficios": [
+    "solo coberto mais tempo",
+    "risco repartido por três culturas",
+    "menos pragas específicas"
+   ],
+   "riscos": [
+    "mais planeamento e trabalho",
+    "três tipos de semente"
+   ],
+   "lacunas": [
+    "não há dados de produtividade medidos na parcela",
+    "solo estimado por modelo: uma análise de solo local daria mais certeza",
+    "preços de mercado não estão incluídos na análise"
+   ]
+  },
+  {
+   "id": "diversificada",
+   "ordem": 3,
+   "prioridades": [
+    "equilibrio"
+   ],
+   "nome": "Diversificada",
+   "factor": 1.05,
+   "ordenar": "compatibilidade",
+   "passos": [
+    {
+     "tipos": [
+      "cereal"
+     ]
+    },
+    {
+     "tipos": [
+      "leguminosa"
+     ]
+    },
+    {
+     "tipos": [
+      "raiz",
+      "oleaginosa",
+      "horticola"
+     ]
+    }
+   ],
+   "resumo": "{c1} → {c2} → {c3}",
+   "porque": "Alterna três grupos de culturas e mantém o solo coberto, o que melhora a fertilidade e reduz a erosão.",
+   "beneficios": [
+    "solo coberto mais tempo",
+    "risco repartido por três culturas",
+    "menos pragas específicas"
+   ],
+   "riscos": [
+    "mais planeamento e trabalho",
+    "três tipos de semente"
+   ],
+   "lacunas": [
+    "não há dados de produtividade medidos na parcela",
+    "solo estimado por modelo: uma análise de solo local daria mais certeza",
+    "preços de mercado não estão incluídos na análise"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+on the plataform wee need to add Advaced section details for those have more knowldlege :
+it may show map dateis, specifc province/distritct choosen
+
+We can add AI agent to interact and give answer accoring our dynamic dataset, any info outside this may reject
+
+for default information: we need to classify the climact several from grave to moderate, and for each stage, explain what happens, how to solve it.
+
+In mozambique plants as, mandioca, bata doce, batata reno, fruits, cana doce, may 
+
+at section 03/ historico da parcela, may show input text, and anaylis it fi valid, also for pragas observadas
+
+Add sectiion like "Quais foram os melhores anos que eu poderia ter plantado"
+It will seek for best routes, our land health and explain that is the time theses crop rotation will be good to plant and today it could be help more than X number of people on rural zones. things like this.
+
+also we can add for - bad time to sow. it can show registed side where whether devasted, it will be good to see how dangeour to sow at this times
+
+for prediction is important to store these data for on neon to be viewed by us. ans also be document which kind of model we used to predict and why, if was forecast, or tree or others...
+
+all percentage informarion we need create simple icon (!) that will explain what does mean
+
+About sms, the system may also give notification such as
+1. It's comming best way to sow
+2. Bad time is coming nothing recommended to sow
+3. after 2 months the whehter is not be good, but you can sow these plants because in just X day can produces
+
+it we can call aler/information types
+
+Also the system can show predicted whether temperatue
+
+DONE
+----------------------------
+DONE
+
+there's exist an api for mozambique local langues, user can switch to this, like Gaza, chose 'xangana/xixangana' and soon of if aplicable
+
+----------------------------
+
+Detalhes avançados: todos os anos e dados do distrito
+I want map, with details, blue - this, white - this, 
+
+I said for bad yearts, seek image on internet, youtube, example youtube channel mirramar - falamocambique, tv sucees, tvm, and other mozambique news, also see for newspaper as O pais, mz news, etc
+
+2/3 images reommended.
+
+
+--------------------------
+
+about crop rotation let's store it on database, our code will be more clean

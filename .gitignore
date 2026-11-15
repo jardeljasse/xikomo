@@ -1,0 +1,14 @@
+# Secrets (database, ArcGIS and Anthropic keys)
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/

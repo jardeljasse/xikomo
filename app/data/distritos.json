@@ -1,0 +1,2705 @@
+[
+ {
+  "id": 1,
+  "distrito": "Ancuabe",
+  "provincia": "Cabo Delgado",
+  "lat": -12.9438,
+  "lon": 39.7442,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 31.8,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.6,
+   "Area construida": 0.6,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 66.9
+  }
+ },
+ {
+  "id": 4,
+  "distrito": "Balama",
+  "provincia": "Cabo Delgado",
+  "lat": -13.5399,
+  "lon": 38.3646,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 30.8,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 4.6,
+   "Area construida": 0.9,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 63.5
+  }
+ },
+ {
+  "id": 21,
+  "distrito": "Chiure",
+  "provincia": "Cabo Delgado",
+  "lat": -13.5455,
+  "lon": 39.6615,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.3,
+   "Arvores": 16.3,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.2,
+   "Area construida": 0.7,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 81.3
+  }
+ },
+ {
+  "id": 32,
+  "distrito": "Cidade De Pemba",
+  "provincia": "Cabo Delgado",
+  "lat": -13.0308,
+  "lon": 40.5401,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 2.5,
+   "Arvores": 1.9,
+   "Vegetacao inundada": 1.6,
+   "Culturas": 1.2,
+   "Area construida": 59.3,
+   "Solo nu": 1.0,
+   "Pastagem / mato": 32.5
+  }
+ },
+ {
+  "id": 50,
+  "distrito": "Ibo",
+  "provincia": "Cabo Delgado",
+  "lat": -12.3668,
+  "lon": 40.5816,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 36.1,
+   "Arvores": 28.5,
+   "Vegetacao inundada": 0.1,
+   "Culturas": 0.0,
+   "Area construida": 4.7,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 30.4
+  }
+ },
+ {
+  "id": 73,
+  "distrito": "Macomia",
+  "provincia": "Cabo Delgado",
+  "lat": -12.0365,
+  "lon": 40.1667,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.4,
+   "Arvores": 63.8,
+   "Vegetacao inundada": 0.5,
+   "Culturas": 0.0,
+   "Area construida": 0.6,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 34.5
+  }
+ },
+ {
+  "id": 102,
+  "distrito": "Mecufi",
+  "provincia": "Cabo Delgado",
+  "lat": -13.2643,
+  "lon": 40.3835,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 7.8,
+   "Vegetacao inundada": 0.3,
+   "Culturas": 0.0,
+   "Area construida": 1.3,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 90.2
+  }
+ },
+ {
+  "id": 104,
+  "distrito": "Meluco",
+  "provincia": "Cabo Delgado",
+  "lat": -12.4613,
+  "lon": 39.701,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 57.5,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 42.3
+  }
+ },
+ {
+  "id": 107,
+  "distrito": "Metuge",
+  "provincia": "Cabo Delgado",
+  "lat": -12.9227,
+  "lon": 40.2511,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.7,
+   "Arvores": 41.6,
+   "Vegetacao inundada": 0.9,
+   "Culturas": 0.7,
+   "Area construida": 0.9,
+   "Solo nu": 0.6,
+   "Pastagem / mato": 54.7
+  }
+ },
+ {
+  "id": 111,
+  "distrito": "Mocimboa Da Praia",
+  "provincia": "Cabo Delgado",
+  "lat": -11.4039,
+  "lon": 40.1362,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.4,
+   "Arvores": 75.9,
+   "Vegetacao inundada": 0.4,
+   "Culturas": 0.0,
+   "Area construida": 0.7,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 22.3
+  }
+ },
+ {
+  "id": 119,
+  "distrito": "Montepuez",
+  "provincia": "Cabo Delgado",
+  "lat": -12.6245,
+  "lon": 38.589,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 36.5,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.8,
+   "Area construida": 0.4,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 62.1
+  }
+ },
+ {
+  "id": 127,
+  "distrito": "Mueda",
+  "provincia": "Cabo Delgado",
+  "lat": -11.5641,
+  "lon": 39.1421,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.4,
+   "Arvores": 56.2,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 0.5,
+   "Solo nu": 0.3,
+   "Pastagem / mato": 42.6
+  }
+ },
+ {
+  "id": 129,
+  "distrito": "Muidumbe",
+  "provincia": "Cabo Delgado",
+  "lat": -11.8534,
+  "lon": 39.8279,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.4,
+   "Arvores": 76.6,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 1.2,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 21.6
+  }
+ },
+ {
+  "id": 139,
+  "distrito": "Namuno",
+  "provincia": "Cabo Delgado",
+  "lat": -13.7375,
+  "lon": 38.9091,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 15.1,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 4.4,
+   "Area construida": 0.6,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 79.7
+  }
+ },
+ {
+  "id": 140,
+  "distrito": "Nangade",
+  "provincia": "Cabo Delgado",
+  "lat": -11.1483,
+  "lon": 39.7772,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.1,
+   "Arvores": 74.6,
+   "Vegetacao inundada": 0.1,
+   "Culturas": 0.0,
+   "Area construida": 0.5,
+   "Solo nu": 0.8,
+   "Pastagem / mato": 22.9
+  }
+ },
+ {
+  "id": 145,
+  "distrito": "Palma",
+  "provincia": "Cabo Delgado",
+  "lat": -10.8607,
+  "lon": 40.2921,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.2,
+   "Arvores": 72.7,
+   "Vegetacao inundada": 1.1,
+   "Culturas": 0.2,
+   "Area construida": 0.9,
+   "Solo nu": 0.7,
+   "Pastagem / mato": 23.2
+  }
+ },
+ {
+  "id": 148,
+  "distrito": "Quissanga",
+  "provincia": "Cabo Delgado",
+  "lat": -12.576,
+  "lon": 40.3403,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.8,
+   "Arvores": 52.9,
+   "Vegetacao inundada": 0.7,
+   "Culturas": 0.0,
+   "Area construida": 0.2,
+   "Solo nu": 0.5,
+   "Pastagem / mato": 43.8
+  }
+ },
+ {
+  "id": 6,
+  "distrito": "Bilene",
+  "provincia": "Gaza",
+  "lat": -25.072,
+  "lon": 33.136,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 3.0,
+   "Arvores": 33.1,
+   "Vegetacao inundada": 1.1,
+   "Culturas": 1.9,
+   "Area construida": 5.9,
+   "Solo nu": 0.3,
+   "Pastagem / mato": 54.7
+  }
+ },
+ {
+  "id": 15,
+  "distrito": "Chibuto",
+  "provincia": "Gaza",
+  "lat": -24.2656,
+  "lon": 33.5491,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 4.1,
+   "Arvores": 49.9,
+   "Vegetacao inundada": 0.8,
+   "Culturas": 7.1,
+   "Area construida": 1.9,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 36.1
+  }
+ },
+ {
+  "id": 16,
+  "distrito": "Chicualacuala",
+  "provincia": "Gaza",
+  "lat": -22.729,
+  "lon": 31.6489,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.3,
+   "Arvores": 58.4,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.7,
+   "Area construida": 0.1,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 40.4
+  }
+ },
+ {
+  "id": 18,
+  "distrito": "Chigubo",
+  "provincia": "Gaza",
+  "lat": -22.9654,
+  "lon": 33.4332,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 71.0,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.3,
+   "Area construida": 0.0,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 28.7
+  }
+ },
+ {
+  "id": 23,
+  "distrito": "Chokwe",
+  "provincia": "Gaza",
+  "lat": -24.487,
+  "lon": 32.8604,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.2,
+   "Arvores": 17.8,
+   "Vegetacao inundada": 0.5,
+   "Culturas": 19.7,
+   "Area construida": 4.5,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 56.1
+  }
+ },
+ {
+  "id": 24,
+  "distrito": "Chongoene",
+  "provincia": "Gaza",
+  "lat": -24.8846,
+  "lon": 33.8622,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.3,
+   "Arvores": 28.6,
+   "Vegetacao inundada": 1.8,
+   "Culturas": 16.2,
+   "Area construida": 7.6,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 44.4
+  }
+ },
+ {
+  "id": 35,
+  "distrito": "Cidade De Xai-Xai",
+  "provincia": "Gaza",
+  "lat": -25.0501,
+  "lon": 33.662,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 4.3,
+   "Arvores": 4.4,
+   "Vegetacao inundada": 2.3,
+   "Culturas": 20.5,
+   "Area construida": 32.2,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 36.4
+  }
+ },
+ {
+  "id": 46,
+  "distrito": "Guija",
+  "provincia": "Gaza",
+  "lat": -24.1421,
+  "lon": 33.0714,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.5,
+   "Arvores": 57.8,
+   "Vegetacao inundada": 0.3,
+   "Culturas": 6.7,
+   "Area construida": 0.9,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 32.7
+  }
+ },
+ {
+  "id": 63,
+  "distrito": "Limpopo",
+  "provincia": "Gaza",
+  "lat": -25.0278,
+  "lon": 33.3838,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.9,
+   "Arvores": 29.4,
+   "Vegetacao inundada": 1.7,
+   "Culturas": 7.0,
+   "Area construida": 6.1,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 53.7
+  }
+ },
+ {
+  "id": 67,
+  "distrito": "Mabalane",
+  "provincia": "Gaza",
+  "lat": -23.5801,
+  "lon": 32.7412,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.3,
+   "Arvores": 51.1,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 2.1,
+   "Area construida": 0.1,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 46.2
+  }
+ },
+ {
+  "id": 81,
+  "distrito": "Mandlakaze",
+  "provincia": "Gaza",
+  "lat": -24.5314,
+  "lon": 33.9866,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 2.4,
+   "Arvores": 42.1,
+   "Vegetacao inundada": 3.1,
+   "Culturas": 1.3,
+   "Area construida": 2.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 49.0
+  }
+ },
+ {
+  "id": 84,
+  "distrito": "Mapai",
+  "provincia": "Gaza",
+  "lat": -22.6245,
+  "lon": 32.4857,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 70.9,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.5,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 28.3
+  }
+ },
+ {
+  "id": 92,
+  "distrito": "Massangena",
+  "provincia": "Gaza",
+  "lat": -21.7509,
+  "lon": 32.5901,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 76.6,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.4,
+   "Area construida": 0.1,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 22.5
+  }
+ },
+ {
+  "id": 94,
+  "distrito": "Massingir",
+  "provincia": "Gaza",
+  "lat": -23.787,
+  "lon": 32.0616,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 2.6,
+   "Arvores": 53.0,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 2.7,
+   "Area construida": 0.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 41.4
+  }
+ },
+ {
+  "id": 28,
+  "distrito": "Cidade De Inhambane",
+  "provincia": "Inhambane",
+  "lat": -23.8736,
+  "lon": 35.515,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 2.9,
+   "Arvores": 8.8,
+   "Vegetacao inundada": 4.8,
+   "Culturas": 0.8,
+   "Area construida": 26.5,
+   "Solo nu": 0.4,
+   "Pastagem / mato": 55.7
+  }
+ },
+ {
+  "id": 41,
+  "distrito": "Funhalouro",
+  "provincia": "Inhambane",
+  "lat": -22.9352,
+  "lon": 34.2661,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 70.5,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.2,
+   "Area construida": 0.0,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 29.3
+  }
+ },
+ {
+  "id": 45,
+  "distrito": "Govuro",
+  "provincia": "Inhambane",
+  "lat": -21.3175,
+  "lon": 34.571,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.4,
+   "Arvores": 69.5,
+   "Vegetacao inundada": 2.2,
+   "Culturas": 0.6,
+   "Area construida": 0.3,
+   "Solo nu": 1.4,
+   "Pastagem / mato": 24.6
+  }
+ },
+ {
+  "id": 49,
+  "distrito": "Homoine",
+  "provincia": "Inhambane",
+  "lat": -23.9143,
+  "lon": 35.0948,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 29.8,
+   "Vegetacao inundada": 0.8,
+   "Culturas": 1.2,
+   "Area construida": 1.4,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 66.7
+  }
+ },
+ {
+  "id": 55,
+  "distrito": "Inharrime",
+  "provincia": "Inhambane",
+  "lat": -24.4079,
+  "lon": 34.7169,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 4.8,
+   "Arvores": 44.7,
+   "Vegetacao inundada": 0.3,
+   "Culturas": 0.8,
+   "Area construida": 3.2,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 46.0
+  }
+ },
+ {
+  "id": 56,
+  "distrito": "Inhassoro",
+  "provincia": "Inhambane",
+  "lat": -21.7176,
+  "lon": 34.8426,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.3,
+   "Arvores": 77.3,
+   "Vegetacao inundada": 0.2,
+   "Culturas": 0.0,
+   "Area construida": 0.6,
+   "Solo nu": 0.5,
+   "Pastagem / mato": 21.1
+  }
+ },
+ {
+  "id": 58,
+  "distrito": "Jangamo",
+  "provincia": "Inhambane",
+  "lat": -24.1578,
+  "lon": 35.2794,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.1,
+   "Arvores": 18.9,
+   "Vegetacao inundada": 0.9,
+   "Culturas": 0.1,
+   "Area construida": 2.7,
+   "Solo nu": 0.3,
+   "Pastagem / mato": 76.1
+  }
+ },
+ {
+  "id": 68,
+  "distrito": "Mabote",
+  "provincia": "Inhambane",
+  "lat": -22.1032,
+  "lon": 33.9902,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.3,
+   "Arvores": 73.3,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 0.0,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 26.2
+  }
+ },
+ {
+  "id": 93,
+  "distrito": "Massinga",
+  "provincia": "Inhambane",
+  "lat": -22.8463,
+  "lon": 35.0869,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 70.8,
+   "Vegetacao inundada": 0.1,
+   "Culturas": 0.2,
+   "Area construida": 1.0,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 27.7
+  }
+ },
+ {
+  "id": 98,
+  "distrito": "Maxixe",
+  "provincia": "Inhambane",
+  "lat": -23.8714,
+  "lon": 35.303,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.7,
+   "Arvores": 7.3,
+   "Vegetacao inundada": 1.4,
+   "Culturas": 0.2,
+   "Area construida": 47.5,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 42.9
+  }
+ },
+ {
+  "id": 122,
+  "distrito": "Morrumbene",
+  "provincia": "Inhambane",
+  "lat": -23.4218,
+  "lon": 34.9339,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 57.2,
+   "Vegetacao inundada": 0.3,
+   "Culturas": 0.2,
+   "Area construida": 2.2,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 40.0
+  }
+ },
+ {
+  "id": 146,
+  "distrito": "Panda",
+  "provincia": "Inhambane",
+  "lat": -24.0572,
+  "lon": 34.457,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.3,
+   "Arvores": 65.6,
+   "Vegetacao inundada": 0.6,
+   "Culturas": 0.0,
+   "Area construida": 0.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 33.2
+  }
+ },
+ {
+  "id": 156,
+  "distrito": "Vilankulo",
+  "provincia": "Inhambane",
+  "lat": -22.2993,
+  "lon": 35.0375,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.5,
+   "Arvores": 65.7,
+   "Vegetacao inundada": 1.4,
+   "Culturas": 0.2,
+   "Area construida": 1.0,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 30.0
+  }
+ },
+ {
+  "id": 157,
+  "distrito": "Zavala",
+  "provincia": "Inhambane",
+  "lat": -24.6589,
+  "lon": 34.7105,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 10.4,
+   "Arvores": 38.2,
+   "Vegetacao inundada": 0.4,
+   "Culturas": 2.6,
+   "Area construida": 3.0,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 45.4
+  }
+ },
+ {
+  "id": 5,
+  "distrito": "Barue",
+  "provincia": "Manica",
+  "lat": -17.9546,
+  "lon": 33.1792,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 35.5,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.4,
+   "Area construida": 0.8,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 62.2
+  }
+ },
+ {
+  "id": 27,
+  "distrito": "Cidade De Chimoio",
+  "provincia": "Manica",
+  "lat": -19.1345,
+  "lon": 33.456,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 1.3,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.5,
+   "Area construida": 59.7,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 38.4
+  }
+ },
+ {
+  "id": 43,
+  "distrito": "Gondola",
+  "provincia": "Manica",
+  "lat": -19.1905,
+  "lon": 33.7758,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 19.5,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.2,
+   "Area construida": 1.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 78.9
+  }
+ },
+ {
+  "id": 47,
+  "distrito": "Guro",
+  "provincia": "Manica",
+  "lat": -16.9543,
+  "lon": 33.5256,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.5,
+   "Arvores": 34.4,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.9,
+   "Area construida": 0.2,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 62.9
+  }
+ },
+ {
+  "id": 70,
+  "distrito": "Macate",
+  "provincia": "Manica",
+  "lat": -19.3693,
+  "lon": 33.5311,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.3,
+   "Arvores": 22.9,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.0,
+   "Area construida": 0.2,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 75.5
+  }
+ },
+ {
+  "id": 72,
+  "distrito": "Machaze",
+  "provincia": "Manica",
+  "lat": -20.927,
+  "lon": 33.2066,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 68.8,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.6,
+   "Area construida": 0.1,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 30.2
+  }
+ },
+ {
+  "id": 74,
+  "distrito": "Macossa",
+  "provincia": "Manica",
+  "lat": -18.0304,
+  "lon": 33.8518,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 28.9,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 71.0
+  }
+ },
+ {
+  "id": 83,
+  "distrito": "Manica",
+  "provincia": "Manica",
+  "lat": -18.7808,
+  "lon": 33.0161,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.4,
+   "Arvores": 36.8,
+   "Vegetacao inundada": 0.1,
+   "Culturas": 1.3,
+   "Area construida": 2.4,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 58.1
+  }
+ },
+ {
+  "id": 124,
+  "distrito": "Mossurize",
+  "provincia": "Manica",
+  "lat": -20.4721,
+  "lon": 32.9533,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 42.7,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.3,
+   "Area construida": 0.4,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 55.5
+  }
+ },
+ {
+  "id": 152,
+  "distrito": "Sussundenga",
+  "provincia": "Manica",
+  "lat": -19.6779,
+  "lon": 33.383,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.9,
+   "Arvores": 53.7,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.7,
+   "Area construida": 0.4,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 43.3
+  }
+ },
+ {
+  "id": 153,
+  "distrito": "Tambara",
+  "provincia": "Manica",
+  "lat": -16.975,
+  "lon": 34.1514,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.8,
+   "Arvores": 44.6,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.6,
+   "Area construida": 0.2,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 53.7
+  }
+ },
+ {
+  "id": 155,
+  "distrito": "Vanduzi",
+  "provincia": "Manica",
+  "lat": -18.8987,
+  "lon": 33.3916,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 14.7,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.7,
+   "Area construida": 1.6,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 82.9
+  }
+ },
+ {
+  "id": 7,
+  "distrito": "Boane",
+  "provincia": "Maputo",
+  "lat": -26.029,
+  "lon": 32.385,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 3.0,
+   "Arvores": 13.6,
+   "Vegetacao inundada": 3.9,
+   "Culturas": 11.3,
+   "Area construida": 28.9,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 39.3
+  }
+ },
+ {
+  "id": 26,
+  "distrito": "Cidade Da Matola",
+  "provincia": "Maputo",
+  "lat": -25.8443,
+  "lon": 32.4871,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.7,
+   "Arvores": 1.4,
+   "Vegetacao inundada": 0.5,
+   "Culturas": 0.1,
+   "Area construida": 91.7,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 5.6
+  }
+ },
+ {
+  "id": 30,
+  "distrito": "Cidade De Maputo",
+  "provincia": "Maputo",
+  "lat": -26.0314,
+  "lon": 32.5497,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 5.3,
+   "Arvores": 14.2,
+   "Vegetacao inundada": 5.8,
+   "Culturas": 1.0,
+   "Area construida": 54.1,
+   "Solo nu": 0.5,
+   "Pastagem / mato": 19.2
+  }
+ },
+ {
+  "id": 77,
+  "distrito": "Magude",
+  "provincia": "Maputo",
+  "lat": -24.7592,
+  "lon": 32.4383,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 54.2,
+   "Vegetacao inundada": 0.1,
+   "Culturas": 1.7,
+   "Area construida": 0.6,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 43.3
+  }
+ },
+ {
+  "id": 82,
+  "distrito": "Manhiça",
+  "provincia": "Maputo",
+  "lat": -25.2889,
+  "lon": 32.8828,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.9,
+   "Arvores": 22.7,
+   "Vegetacao inundada": 4.4,
+   "Culturas": 15.8,
+   "Area construida": 4.7,
+   "Solo nu": 0.4,
+   "Pastagem / mato": 50.0
+  }
+ },
+ {
+  "id": 89,
+  "distrito": "Marracuene",
+  "provincia": "Maputo",
+  "lat": -25.6807,
+  "lon": 32.6719,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 3.8,
+   "Arvores": 16.3,
+   "Vegetacao inundada": 3.0,
+   "Culturas": 5.2,
+   "Area construida": 22.7,
+   "Solo nu": 1.0,
+   "Pastagem / mato": 48.1
+  }
+ },
+ {
+  "id": 95,
+  "distrito": "Matutuine",
+  "provincia": "Maputo",
+  "lat": -26.4511,
+  "lon": 32.5883,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 3.2,
+   "Arvores": 60.4,
+   "Vegetacao inundada": 2.9,
+   "Culturas": 0.5,
+   "Area construida": 1.2,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 31.7
+  }
+ },
+ {
+  "id": 109,
+  "distrito": "Moamba",
+  "provincia": "Maputo",
+  "lat": -25.326,
+  "lon": 32.3169,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.6,
+   "Arvores": 29.8,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 2.7,
+   "Area construida": 1.6,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 64.3
+  }
+ },
+ {
+  "id": 136,
+  "distrito": "Namaacha",
+  "provincia": "Maputo",
+  "lat": -26.0736,
+  "lon": 32.176,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.5,
+   "Arvores": 28.2,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 4.7,
+   "Area construida": 1.8,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 63.7
+  }
+ },
+ {
+  "id": 2,
+  "distrito": "Angoche",
+  "provincia": "Nampula",
+  "lat": -16.095,
+  "lon": 39.7571,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 2.2,
+   "Arvores": 14.9,
+   "Vegetacao inundada": 3.6,
+   "Culturas": 0.9,
+   "Area construida": 0.6,
+   "Solo nu": 1.4,
+   "Pastagem / mato": 76.4
+  }
+ },
+ {
+  "id": 31,
+  "distrito": "Cidade De Nampula",
+  "provincia": "Nampula",
+  "lat": -15.1149,
+  "lon": 39.2595,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 0.7,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 52.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 46.7
+  }
+ },
+ {
+  "id": 40,
+  "distrito": "Erati",
+  "provincia": "Nampula",
+  "lat": -13.8871,
+  "lon": 39.6959,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.5,
+   "Arvores": 8.8,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.6,
+   "Area construida": 0.5,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 89.4
+  }
+ },
+ {
+  "id": 52,
+  "distrito": "Ilha De Moçambique",
+  "provincia": "Nampula",
+  "lat": -15.0561,
+  "lon": 40.6272,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 7.4,
+   "Arvores": 5.5,
+   "Vegetacao inundada": 7.3,
+   "Culturas": 3.2,
+   "Area construida": 7.0,
+   "Solo nu": 0.5,
+   "Pastagem / mato": 69.0
+  }
+ },
+ {
+  "id": 61,
+  "distrito": "Lalaua",
+  "provincia": "Nampula",
+  "lat": -14.47,
+  "lon": 38.0946,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.4,
+   "Arvores": 24.3,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 3.7,
+   "Area construida": 0.4,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 71.1
+  }
+ },
+ {
+  "id": 62,
+  "distrito": "Larde",
+  "provincia": "Nampula",
+  "lat": -16.3642,
+  "lon": 39.4651,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.3,
+   "Arvores": 27.1,
+   "Vegetacao inundada": 1.2,
+   "Culturas": 0.2,
+   "Area construida": 0.6,
+   "Solo nu": 0.3,
+   "Pastagem / mato": 69.4
+  }
+ },
+ {
+  "id": 64,
+  "distrito": "Liúpo",
+  "provincia": "Nampula",
+  "lat": -15.6936,
+  "lon": 40.038,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 55.3,
+   "Vegetacao inundada": 0.2,
+   "Culturas": 0.0,
+   "Area construida": 0.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 44.0
+  }
+ },
+ {
+  "id": 79,
+  "distrito": "Malema",
+  "provincia": "Nampula",
+  "lat": -14.7355,
+  "lon": 37.3665,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 25.0,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 2.8,
+   "Area construida": 0.5,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 71.5
+  }
+ },
+ {
+  "id": 100,
+  "distrito": "Meconta",
+  "provincia": "Nampula",
+  "lat": -15.2524,
+  "lon": 39.659,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 14.7,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.2,
+   "Area construida": 0.7,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 84.3
+  }
+ },
+ {
+  "id": 101,
+  "distrito": "Mecuburi",
+  "provincia": "Nampula",
+  "lat": -14.4508,
+  "lon": 38.911,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 20.7,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 2.3,
+   "Area construida": 0.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 76.5
+  }
+ },
+ {
+  "id": 105,
+  "distrito": "Memba",
+  "provincia": "Nampula",
+  "lat": -13.9662,
+  "lon": 40.3232,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.5,
+   "Arvores": 13.3,
+   "Vegetacao inundada": 0.1,
+   "Culturas": 0.0,
+   "Area construida": 0.2,
+   "Solo nu": 0.3,
+   "Pastagem / mato": 85.5
+  }
+ },
+ {
+  "id": 114,
+  "distrito": "Mogincual",
+  "provincia": "Nampula",
+  "lat": -15.4307,
+  "lon": 40.0694,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.9,
+   "Arvores": 50.9,
+   "Vegetacao inundada": 1.1,
+   "Culturas": 0.0,
+   "Area construida": 0.1,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 46.8
+  }
+ },
+ {
+  "id": 115,
+  "distrito": "Mogovolas",
+  "provincia": "Nampula",
+  "lat": -15.7242,
+  "lon": 39.3014,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 7.0,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.3,
+   "Area construida": 0.4,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 92.2
+  }
+ },
+ {
+  "id": 117,
+  "distrito": "Moma",
+  "provincia": "Nampula",
+  "lat": -16.3967,
+  "lon": 39.169,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.8,
+   "Arvores": 10.7,
+   "Vegetacao inundada": 0.7,
+   "Culturas": 0.1,
+   "Area construida": 0.8,
+   "Solo nu": 0.5,
+   "Pastagem / mato": 86.4
+  }
+ },
+ {
+  "id": 118,
+  "distrito": "Monapo",
+  "provincia": "Nampula",
+  "lat": -14.8078,
+  "lon": 40.1191,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.3,
+   "Arvores": 15.9,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 2.0,
+   "Area construida": 0.7,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 81.1
+  }
+ },
+ {
+  "id": 123,
+  "distrito": "Mossuril",
+  "provincia": "Nampula",
+  "lat": -15.0214,
+  "lon": 40.4831,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.3,
+   "Arvores": 25.8,
+   "Vegetacao inundada": 1.2,
+   "Culturas": 0.0,
+   "Area construida": 0.6,
+   "Solo nu": 0.3,
+   "Pastagem / mato": 70.8
+  }
+ },
+ {
+  "id": 126,
+  "distrito": "Muecate",
+  "provincia": "Nampula",
+  "lat": -14.6599,
+  "lon": 39.5031,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 24.8,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.1,
+   "Area construida": 0.2,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 74.8
+  }
+ },
+ {
+  "id": 131,
+  "distrito": "Murrupula",
+  "provincia": "Nampula",
+  "lat": -15.4187,
+  "lon": 38.6032,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 13.8,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.9,
+   "Area construida": 0.6,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 83.7
+  }
+ },
+ {
+  "id": 133,
+  "distrito": "Nacala",
+  "provincia": "Nampula",
+  "lat": -14.5467,
+  "lon": 40.718,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 2.6,
+   "Arvores": 6.5,
+   "Vegetacao inundada": 0.6,
+   "Culturas": 0.1,
+   "Area construida": 17.7,
+   "Solo nu": 0.4,
+   "Pastagem / mato": 72.1
+  }
+ },
+ {
+  "id": 134,
+  "distrito": "Nacala-A-Velha",
+  "provincia": "Nampula",
+  "lat": -14.5563,
+  "lon": 40.4836,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.4,
+   "Arvores": 14.1,
+   "Vegetacao inundada": 0.1,
+   "Culturas": 0.0,
+   "Area construida": 0.7,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 84.6
+  }
+ },
+ {
+  "id": 135,
+  "distrito": "Nacaroa",
+  "provincia": "Nampula",
+  "lat": -14.3619,
+  "lon": 39.918,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.4,
+   "Arvores": 14.5,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 0.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 84.7
+  }
+ },
+ {
+  "id": 149,
+  "distrito": "Rapale",
+  "provincia": "Nampula",
+  "lat": -15.1421,
+  "lon": 38.9777,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 5.7,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.3,
+   "Area construida": 1.6,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 91.4
+  }
+ },
+ {
+  "id": 150,
+  "distrito": "Ribaue",
+  "provincia": "Nampula",
+  "lat": -15.0166,
+  "lon": 38.2004,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 12.2,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.0,
+   "Area construida": 0.6,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 86.2
+  }
+ },
+ {
+  "id": 19,
+  "distrito": "Chimbonila",
+  "provincia": "Niassa",
+  "lat": -13.4235,
+  "lon": 35.3392,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 25.5,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 4.6,
+   "Area construida": 0.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 69.5
+  }
+ },
+ {
+  "id": 29,
+  "distrito": "Cidade De Lichinga",
+  "provincia": "Niassa",
+  "lat": -13.3064,
+  "lon": 35.2643,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 2.0,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 8.2,
+   "Area construida": 23.5,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 66.3
+  }
+ },
+ {
+  "id": 36,
+  "distrito": "Cuamba",
+  "provincia": "Niassa",
+  "lat": -14.7487,
+  "lon": 36.5968,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 19.5,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.5,
+   "Area construida": 1.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 77.8
+  }
+ },
+ {
+  "id": 53,
+  "distrito": "Ilha Licom",
+  "provincia": "Niassa",
+  "lat": -12.0715,
+  "lon": 34.7277,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 44.7,
+   "Arvores": 0.8,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 32.4,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 22.1
+  }
+ },
+ {
+  "id": 54,
+  "distrito": "Ilha Risunodo",
+  "provincia": "Niassa",
+  "lat": -12.0334,
+  "lon": 34.6193,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 79.6,
+   "Arvores": 0.0,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 14.8,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 5.6
+  }
+ },
+ {
+  "id": 59,
+  "distrito": "Lago",
+  "provincia": "Niassa",
+  "lat": -12.3382,
+  "lon": 34.9318,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.2,
+   "Arvores": 56.6,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.5,
+   "Area construida": 0.4,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 41.3
+  }
+ },
+ {
+  "id": 60,
+  "distrito": "Lago Niassa",
+  "provincia": "Niassa",
+  "lat": -12.5289,
+  "lon": 34.5849,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 99.9,
+   "Arvores": 0.0,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 0.0,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 0.1
+  }
+ },
+ {
+  "id": 78,
+  "distrito": "Majune",
+  "provincia": "Niassa",
+  "lat": -13.3289,
+  "lon": 36.4549,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.3,
+   "Arvores": 76.2,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.1,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 23.3
+  }
+ },
+ {
+  "id": 80,
+  "distrito": "Mandimba",
+  "provincia": "Niassa",
+  "lat": -14.2302,
+  "lon": 35.8807,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.5,
+   "Arvores": 33.3,
+   "Vegetacao inundada": 0.2,
+   "Culturas": 1.4,
+   "Area construida": 0.7,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 63.9
+  }
+ },
+ {
+  "id": 91,
+  "distrito": "Marrupa",
+  "provincia": "Niassa",
+  "lat": -13.0397,
+  "lon": 37.3218,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.3,
+   "Arvores": 62.4,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.6,
+   "Area construida": 0.1,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 36.6
+  }
+ },
+ {
+  "id": 96,
+  "distrito": "Maua",
+  "provincia": "Niassa",
+  "lat": -13.8996,
+  "lon": 36.8525,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 68.5,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.2,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 31.2
+  }
+ },
+ {
+  "id": 97,
+  "distrito": "Mavago",
+  "provincia": "Niassa",
+  "lat": -12.1669,
+  "lon": 36.3079,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 65.9,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.2,
+   "Area construida": 0.0,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 33.7
+  }
+ },
+ {
+  "id": 99,
+  "distrito": "Mecanhelas",
+  "provincia": "Niassa",
+  "lat": -14.9381,
+  "lon": 36.1209,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 3.1,
+   "Arvores": 19.5,
+   "Vegetacao inundada": 1.1,
+   "Culturas": 0.8,
+   "Area construida": 0.6,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 75.0
+  }
+ },
+ {
+  "id": 103,
+  "distrito": "Mecula",
+  "provincia": "Niassa",
+  "lat": -11.9695,
+  "lon": 37.5825,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 45.0,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 0.0,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 54.7
+  }
+ },
+ {
+  "id": 106,
+  "distrito": "Metarica",
+  "provincia": "Niassa",
+  "lat": -14.3311,
+  "lon": 36.9716,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 60.0,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.2,
+   "Area construida": 0.2,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 39.5
+  }
+ },
+ {
+  "id": 128,
+  "distrito": "Muembe",
+  "provincia": "Niassa",
+  "lat": -12.7779,
+  "lon": 35.9449,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 70.9,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.5,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 28.4
+  }
+ },
+ {
+  "id": 141,
+  "distrito": "Ngauma",
+  "provincia": "Niassa",
+  "lat": -13.8328,
+  "lon": 35.5142,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 23.3,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.6,
+   "Area construida": 0.4,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 75.7
+  }
+ },
+ {
+  "id": 144,
+  "distrito": "Nipepe",
+  "provincia": "Niassa",
+  "lat": -13.9062,
+  "lon": 37.8585,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 58.1,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.5,
+   "Area construida": 0.2,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 41.1
+  }
+ },
+ {
+  "id": 151,
+  "distrito": "Sanga",
+  "provincia": "Niassa",
+  "lat": -12.2882,
+  "lon": 35.4764,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 52.8,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.1,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 45.7
+  }
+ },
+ {
+  "id": 8,
+  "distrito": "Buzi",
+  "provincia": "Sofala",
+  "lat": -20.0741,
+  "lon": 34.3577,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.3,
+   "Arvores": 35.5,
+   "Vegetacao inundada": 1.3,
+   "Culturas": 2.0,
+   "Area construida": 0.6,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 59.2
+  }
+ },
+ {
+  "id": 10,
+  "distrito": "Caia",
+  "provincia": "Sofala",
+  "lat": -17.8008,
+  "lon": 35.0905,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.7,
+   "Arvores": 34.5,
+   "Vegetacao inundada": 0.3,
+   "Culturas": 2.8,
+   "Area construida": 0.8,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 59.8
+  }
+ },
+ {
+  "id": 12,
+  "distrito": "Chemba",
+  "provincia": "Sofala",
+  "lat": -17.2263,
+  "lon": 34.6517,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.4,
+   "Arvores": 36.6,
+   "Vegetacao inundada": 0.1,
+   "Culturas": 0.9,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 60.9
+  }
+ },
+ {
+  "id": 13,
+  "distrito": "Cheringoma",
+  "provincia": "Sofala",
+  "lat": -18.4876,
+  "lon": 35.0511,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 72.5,
+   "Vegetacao inundada": 0.8,
+   "Culturas": 0.1,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 26.4
+  }
+ },
+ {
+  "id": 14,
+  "distrito": "Chibabava",
+  "provincia": "Sofala",
+  "lat": -20.2989,
+  "lon": 33.7765,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 51.7,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.4,
+   "Area construida": 0.2,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 47.4
+  }
+ },
+ {
+  "id": 25,
+  "distrito": "Cidade Da Beira",
+  "provincia": "Sofala",
+  "lat": -19.7352,
+  "lon": 34.9036,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 2.1,
+   "Arvores": 5.5,
+   "Vegetacao inundada": 4.3,
+   "Culturas": 1.2,
+   "Area construida": 21.2,
+   "Solo nu": 0.3,
+   "Pastagem / mato": 65.3
+  }
+ },
+ {
+  "id": 39,
+  "distrito": "Dondo",
+  "provincia": "Sofala",
+  "lat": -19.4392,
+  "lon": 34.8094,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.2,
+   "Arvores": 15.5,
+   "Vegetacao inundada": 0.9,
+   "Culturas": 3.8,
+   "Area construida": 3.2,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 75.2
+  }
+ },
+ {
+  "id": 44,
+  "distrito": "Gorongosa",
+  "provincia": "Sofala",
+  "lat": -18.6445,
+  "lon": 34.1864,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.5,
+   "Arvores": 36.5,
+   "Vegetacao inundada": 0.1,
+   "Culturas": 1.2,
+   "Area construida": 0.2,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 61.4
+  }
+ },
+ {
+  "id": 71,
+  "distrito": "Machanga",
+  "provincia": "Sofala",
+  "lat": -20.9147,
+  "lon": 34.5655,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 3.0,
+   "Arvores": 40.1,
+   "Vegetacao inundada": 4.1,
+   "Culturas": 0.7,
+   "Area construida": 0.3,
+   "Solo nu": 0.6,
+   "Pastagem / mato": 51.2
+  }
+ },
+ {
+  "id": 88,
+  "distrito": "Maringue",
+  "provincia": "Sofala",
+  "lat": -17.8145,
+  "lon": 34.497,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 31.1,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.8,
+   "Area construida": 0.1,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 67.9
+  }
+ },
+ {
+  "id": 90,
+  "distrito": "Marromeu",
+  "provincia": "Sofala",
+  "lat": -18.4045,
+  "lon": 35.7531,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.9,
+   "Arvores": 53.6,
+   "Vegetacao inundada": 3.0,
+   "Culturas": 3.7,
+   "Area construida": 0.3,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 38.4
+  }
+ },
+ {
+  "id": 125,
+  "distrito": "Muanza",
+  "provincia": "Sofala",
+  "lat": -19.0865,
+  "lon": 35.1132,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.5,
+   "Arvores": 57.1,
+   "Vegetacao inundada": 0.2,
+   "Culturas": 0.2,
+   "Area construida": 0.1,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 41.8
+  }
+ },
+ {
+  "id": 142,
+  "distrito": "Nhamatanda",
+  "provincia": "Sofala",
+  "lat": -19.3053,
+  "lon": 34.2461,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.5,
+   "Arvores": 13.7,
+   "Vegetacao inundada": 0.2,
+   "Culturas": 1.7,
+   "Area construida": 0.8,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 83.1
+  }
+ },
+ {
+  "id": 3,
+  "distrito": "Angonia",
+  "provincia": "Tete",
+  "lat": -14.7686,
+  "lon": 34.1438,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 6.8,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 13.5,
+   "Area construida": 3.4,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 76.3
+  }
+ },
+ {
+  "id": 9,
+  "distrito": "Cahora Bassa",
+  "provincia": "Tete",
+  "lat": -16.0796,
+  "lon": 32.4423,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 2.8,
+   "Arvores": 32.8,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 2.4,
+   "Area construida": 0.4,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 61.5
+  }
+ },
+ {
+  "id": 11,
+  "distrito": "Changara",
+  "provincia": "Tete",
+  "lat": -16.6609,
+  "lon": 33.0504,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.5,
+   "Arvores": 39.1,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 8.8,
+   "Area construida": 0.6,
+   "Solo nu": 0.3,
+   "Pastagem / mato": 50.7
+  }
+ },
+ {
+  "id": 17,
+  "distrito": "Chifunde",
+  "provincia": "Tete",
+  "lat": -14.7122,
+  "lon": 32.8306,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 55.4,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 3.8,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 40.6
+  }
+ },
+ {
+  "id": 22,
+  "distrito": "Chiuta",
+  "provincia": "Tete",
+  "lat": -15.5097,
+  "lon": 33.4404,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.3,
+   "Arvores": 53.9,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.8,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 44.9
+  }
+ },
+ {
+  "id": 34,
+  "distrito": "Cidade De Tete",
+  "provincia": "Tete",
+  "lat": -16.1584,
+  "lon": 33.5798,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 9.4,
+   "Arvores": 11.3,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 2.8,
+   "Area construida": 29.6,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 46.6
+  }
+ },
+ {
+  "id": 38,
+  "distrito": "Doa",
+  "provincia": "Tete",
+  "lat": -16.606,
+  "lon": 34.4453,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 2.0,
+   "Arvores": 30.6,
+   "Vegetacao inundada": 0.4,
+   "Culturas": 0.7,
+   "Area construida": 0.2,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 66.1
+  }
+ },
+ {
+  "id": 69,
+  "distrito": "Macanga",
+  "provincia": "Tete",
+  "lat": -14.715,
+  "lon": 33.5379,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 54.1,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 3.8,
+   "Area construida": 0.4,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 41.7
+  }
+ },
+ {
+  "id": 76,
+  "distrito": "Magoe",
+  "provincia": "Tete",
+  "lat": -16.0194,
+  "lon": 31.7204,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 5.1,
+   "Arvores": 45.4,
+   "Vegetacao inundada": 0.2,
+   "Culturas": 5.1,
+   "Area construida": 0.2,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 43.8
+  }
+ },
+ {
+  "id": 86,
+  "distrito": "Marara",
+  "provincia": "Tete",
+  "lat": -16.054,
+  "lon": 33.1678,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.7,
+   "Arvores": 28.0,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 7.6,
+   "Area construida": 0.5,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 63.2
+  }
+ },
+ {
+  "id": 87,
+  "distrito": "Maravia",
+  "provincia": "Tete",
+  "lat": -15.0232,
+  "lon": 32.0397,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 3.8,
+   "Arvores": 51.8,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 3.0,
+   "Area construida": 0.0,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 41.4
+  }
+ },
+ {
+  "id": 110,
+  "distrito": "Moatize",
+  "provincia": "Tete",
+  "lat": -16.0139,
+  "lon": 33.9153,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.8,
+   "Arvores": 42.9,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.1,
+   "Area construida": 0.6,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 54.6
+  }
+ },
+ {
+  "id": 132,
+  "distrito": "Mutarara",
+  "provincia": "Tete",
+  "lat": -17.2288,
+  "lon": 35.1236,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 3.0,
+   "Arvores": 19.2,
+   "Vegetacao inundada": 8.6,
+   "Culturas": 2.8,
+   "Area construida": 1.0,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 65.3
+  }
+ },
+ {
+  "id": 154,
+  "distrito": "Tsangano",
+  "provincia": "Tete",
+  "lat": -15.0885,
+  "lon": 34.3695,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 23.0,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 8.1,
+   "Area construida": 1.0,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 67.8
+  }
+ },
+ {
+  "id": 158,
+  "distrito": "Zumbu",
+  "provincia": "Tete",
+  "lat": -15.1849,
+  "lon": 30.8496,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.4,
+   "Arvores": 55.1,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 2.5,
+   "Area construida": 0.0,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 40.8
+  }
+ },
+ {
+  "id": 0,
+  "distrito": "Alto Molocue",
+  "provincia": "Zambézia",
+  "lat": -15.7028,
+  "lon": 37.6808,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 24.1,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 3.3,
+   "Area construida": 0.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 72.3
+  }
+ },
+ {
+  "id": 20,
+  "distrito": "Chinde",
+  "provincia": "Zambézia",
+  "lat": -18.4679,
+  "lon": 36.446,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 4.8,
+   "Arvores": 39.1,
+   "Vegetacao inundada": 3.5,
+   "Culturas": 1.0,
+   "Area construida": 0.7,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 50.6
+  }
+ },
+ {
+  "id": 33,
+  "distrito": "Cidade De Quelimane",
+  "provincia": "Zambézia",
+  "lat": -17.8666,
+  "lon": 36.8973,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 4.6,
+   "Arvores": 7.3,
+   "Vegetacao inundada": 23.5,
+   "Culturas": 8.2,
+   "Area construida": 35.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 21.0
+  }
+ },
+ {
+  "id": 37,
+  "distrito": "Derre",
+  "provincia": "Zambézia",
+  "lat": -17.0568,
+  "lon": 36.1229,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 49.9,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 49.8
+  }
+ },
+ {
+  "id": 42,
+  "distrito": "Gile",
+  "provincia": "Zambézia",
+  "lat": -15.8808,
+  "lon": 38.4162,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 51.6,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.0,
+   "Area construida": 0.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 48.0
+  }
+ },
+ {
+  "id": 48,
+  "distrito": "Gurue",
+  "provincia": "Zambézia",
+  "lat": -15.4545,
+  "lon": 36.941,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.0,
+   "Arvores": 12.7,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 4.5,
+   "Area construida": 0.7,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 82.0
+  }
+ },
+ {
+  "id": 51,
+  "distrito": "Ile",
+  "provincia": "Zambézia",
+  "lat": -15.9814,
+  "lon": 37.3488,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.3,
+   "Arvores": 14.1,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.1,
+   "Area construida": 0.2,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 84.4
+  }
+ },
+ {
+  "id": 57,
+  "distrito": "Inhassunge",
+  "provincia": "Zambézia",
+  "lat": -18.0702,
+  "lon": 36.8206,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 6.6,
+   "Arvores": 20.4,
+   "Vegetacao inundada": 18.9,
+   "Culturas": 5.8,
+   "Area construida": 3.7,
+   "Solo nu": 0.3,
+   "Pastagem / mato": 44.3
+  }
+ },
+ {
+  "id": 65,
+  "distrito": "Luabo",
+  "provincia": "Zambézia",
+  "lat": -18.3232,
+  "lon": 36.1318,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 4.0,
+   "Arvores": 35.2,
+   "Vegetacao inundada": 1.7,
+   "Culturas": 2.1,
+   "Area construida": 0.4,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 56.6
+  }
+ },
+ {
+  "id": 66,
+  "distrito": "Lugela",
+  "provincia": "Zambézia",
+  "lat": -16.3291,
+  "lon": 36.7006,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.4,
+   "Arvores": 52.3,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.4,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 46.8
+  }
+ },
+ {
+  "id": 75,
+  "distrito": "Maganja Da Costa",
+  "provincia": "Zambézia",
+  "lat": -17.3439,
+  "lon": 37.4332,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.4,
+   "Arvores": 44.8,
+   "Vegetacao inundada": 3.2,
+   "Culturas": 0.5,
+   "Area construida": 1.7,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 48.4
+  }
+ },
+ {
+  "id": 85,
+  "distrito": "Maquival",
+  "provincia": "Zambézia",
+  "lat": -17.825,
+  "lon": 37.0497,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 5.8,
+   "Arvores": 15.1,
+   "Vegetacao inundada": 13.9,
+   "Culturas": 8.9,
+   "Area construida": 4.8,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 51.3
+  }
+ },
+ {
+  "id": 108,
+  "distrito": "Milange",
+  "provincia": "Zambézia",
+  "lat": -16.2309,
+  "lon": 35.7538,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 8.2,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 11.0,
+   "Area construida": 0.8,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 79.8
+  }
+ },
+ {
+  "id": 112,
+  "distrito": "Mocuba",
+  "provincia": "Zambézia",
+  "lat": -16.852,
+  "lon": 36.8782,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.4,
+   "Arvores": 48.7,
+   "Vegetacao inundada": 0.1,
+   "Culturas": 0.4,
+   "Area construida": 0.6,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 49.8
+  }
+ },
+ {
+  "id": 113,
+  "distrito": "Mocubela",
+  "provincia": "Zambézia",
+  "lat": -17.0063,
+  "lon": 37.6613,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.6,
+   "Arvores": 68.2,
+   "Vegetacao inundada": 0.9,
+   "Culturas": 0.1,
+   "Area construida": 0.3,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 29.8
+  }
+ },
+ {
+  "id": 116,
+  "distrito": "Molumbo",
+  "provincia": "Zambézia",
+  "lat": -15.6826,
+  "lon": 36.1955,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.4,
+   "Arvores": 5.5,
+   "Vegetacao inundada": 0.1,
+   "Culturas": 4.7,
+   "Area construida": 0.5,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 88.8
+  }
+ },
+ {
+  "id": 120,
+  "distrito": "Mopeia",
+  "provincia": "Zambézia",
+  "lat": -17.868,
+  "lon": 36.0531,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.9,
+   "Arvores": 57.3,
+   "Vegetacao inundada": 1.2,
+   "Culturas": 0.4,
+   "Area construida": 0.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 39.9
+  }
+ },
+ {
+  "id": 121,
+  "distrito": "Morrumbala",
+  "provincia": "Zambézia",
+  "lat": -17.0054,
+  "lon": 35.581,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 32.3,
+   "Vegetacao inundada": 3.4,
+   "Culturas": 1.2,
+   "Area construida": 0.3,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 62.5
+  }
+ },
+ {
+  "id": 130,
+  "distrito": "Mulevala",
+  "provincia": "Zambézia",
+  "lat": -16.3729,
+  "lon": 37.5905,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.1,
+   "Arvores": 42.7,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 0.2,
+   "Area construida": 0.1,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 56.8
+  }
+ },
+ {
+  "id": 137,
+  "distrito": "Namacurra",
+  "provincia": "Zambézia",
+  "lat": -17.4727,
+  "lon": 37.0426,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 1.9,
+   "Arvores": 28.8,
+   "Vegetacao inundada": 3.8,
+   "Culturas": 0.6,
+   "Area construida": 2.7,
+   "Solo nu": 0.1,
+   "Pastagem / mato": 62.1
+  }
+ },
+ {
+  "id": 138,
+  "distrito": "Namarroi",
+  "provincia": "Zambézia",
+  "lat": -15.8694,
+  "lon": 36.766,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.2,
+   "Arvores": 18.2,
+   "Vegetacao inundada": 0.0,
+   "Culturas": 1.0,
+   "Area construida": 0.2,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 80.4
+  }
+ },
+ {
+  "id": 143,
+  "distrito": "Nicoadala",
+  "provincia": "Zambézia",
+  "lat": -17.573,
+  "lon": 36.6568,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.9,
+   "Arvores": 43.3,
+   "Vegetacao inundada": 2.1,
+   "Culturas": 1.5,
+   "Area construida": 2.0,
+   "Solo nu": 0.0,
+   "Pastagem / mato": 50.1
+  }
+ },
+ {
+  "id": 147,
+  "distrito": "Pebane",
+  "provincia": "Zambézia",
+  "lat": -16.7094,
+  "lon": 38.5183,
+  "cobertura_ano": 2025,
+  "cobertura": {
+   "Agua": 0.9,
+   "Arvores": 59.6,
+   "Vegetacao inundada": 1.0,
+   "Culturas": 0.0,
+   "Area construida": 0.2,
+   "Solo nu": 0.2,
+   "Pastagem / mato": 38.0
+  }
+ }
+]
