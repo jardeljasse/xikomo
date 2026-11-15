@@ -45,7 +45,6 @@ a { color: inherit; }
 .linguas button + button { border-left: 1px solid var(--linha); }
 .linguas button[aria-pressed="true"] { background: var(--tinta); color: #fff; }
 .linguas.ocupado { opacity: .6; }
-.aviso-lingua { position: fixed; left: 16px; bottom: 16px; z-index: 900; max-width: min(360px, calc(100vw - 110px)); padding: 9px 12px; border-radius: 8px; background: var(--ambar-claro); color: var(--ambar); font-size: .8rem; font-weight: 700; box-shadow: 0 4px 16px rgba(15,23,42,.15); }
 .assistente { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: .95rem; color: var(--tinta); white-space: nowrap; }
 .ponto { width: 9px; height: 9px; border-radius: 50%; background: var(--tinta); }
 
@@ -264,7 +263,7 @@ input[type="tel"] { display: block; width: 100%; margin-top: 6px; padding: 12px;
 .sms-lista .corpo-sms { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .8rem; color: var(--texto); overflow-wrap: anywhere; }
 
 /* Assistente flutuante */
-.bot { position: fixed; right: 20px; bottom: 20px; z-index: 1000; display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+.bot { position: fixed; right: 20px; bottom: 76px; z-index: 1000; display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
 .bot-botao { display: flex; align-items: center; gap: 10px; padding: 0; border: 0; background: none; cursor: pointer; font: inherit; }
 .bot-icone { display: grid; place-items: center; width: 56px; height: 56px; border-radius: 50%; background: var(--tinta); color: #fff; box-shadow: 0 8px 24px rgba(15,23,42,.3); animation: flutuar 3s ease-in-out infinite; }
 .bot-icone.pequeno { width: 36px; height: 36px; box-shadow: none; animation: none; flex: none; }
@@ -381,7 +380,7 @@ td:first-child { font-weight: 700; color: var(--tinta); }
   section { scroll-margin-top: 110px; }
   .heroi { padding: 56px 22px 28px; }
   .heroi-selo { top: 14px; right: auto; left: 22px; }
-  .bot { right: 12px; bottom: 12px; }
+  .bot { right: 12px; bottom: 68px; }
   .pergunta .botao { padding: 12px 14px; }
   .par { grid-template-columns: 1fr; }
 }
