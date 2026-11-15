@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=2026-11-15f" />
   </head>
   <body>
     <header class="topo">
@@ -56,11 +56,24 @@
 
     <main>
       <section id="inicio" class="largura">
-        <div class="heroi">
+        <div class="heroi" id="heroi">
+          <div class="heroi-slides" aria-hidden="true">
+            <div class="slide activo" style="background-image: url('img/heroi_soja.jpg')"></div>
+            <div class="slide" style="background-image: url('img/heroi_nhemba.jpg')"></div>
+            <div class="slide" style="background-image: url('img/heroi_mandioca.jpg')"></div>
+          </div>
           <p class="etiqueta clara">Orientação baseada em dados</p>
           <h1>A próxima boa colheita começa aqui.</h1>
           <a class="botao claro" href="#analise">Começar a análise</a>
           <span class="heroi-selo">Clima por satélite · NASA POWER</span>
+          <div class="heroi-rodape">
+            <span class="heroi-cultura" id="heroi-cultura" aria-live="polite" data-nt>Soybean</span>
+            <div class="heroi-pontos" id="heroi-pontos" aria-label="Fotografias" data-nt>
+              <button type="button" aria-label="Soybean" aria-current="true"></button>
+              <button type="button" aria-label="Cowpea" aria-current="false"></button>
+              <button type="button" aria-label="Cassava" aria-current="false"></button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -443,6 +456,6 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-    <script src="app.js"></script>
+    <script src="app.js?v=2026-11-15f"></script>
   </body>
 </html>

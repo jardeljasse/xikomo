@@ -194,5 +194,26 @@
   "licenca": "CC BY-SA 4.0",
   "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Harvest_5.jpg"
+ },
+ "heroi_soja": {
+  "titulo": "SOYBEAN 01.jpg",
+  "autor": "Jozef020",
+  "licenca": "CC BY-SA 4.0",
+  "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:SOYBEAN_01.jpg"
+ },
+ "heroi_nhemba": {
+  "titulo": "Field of Vigna unguiculata.jpg",
+  "autor": "Thamizhpparithi Maari",
+  "licenca": "CC BY-SA 4.0",
+  "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Field_of_Vigna_unguiculata.jpg"
+ },
+ "heroi_mandioca": {
+  "titulo": "A Massive Cassava Farm.jpg",
+  "autor": "Cpraise",
+  "licenca": "CC BY-SA 4.0",
+  "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:A_Massive_Cassava_Farm.jpg"
  }
 }

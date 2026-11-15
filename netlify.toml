@@ -4,6 +4,17 @@
   publish = "app/static"
   command = ""
 
+# Page, JS and CSS are always checked with the server, so browsers never keep an old version.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
 # Replace the address below if Render gives your service a different one.
 [[redirects]]
   from = "/api/*"

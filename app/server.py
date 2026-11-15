@@ -23,6 +23,16 @@ DISTRITOS = json.loads((AQUI / "data" / "distritos.json").read_text(encoding="ut
 POR_ID = {d["id"]: d for d in DISTRITOS}
 
 app = FastAPI(title="xikomu")
+
+
+@app.middleware("http")
+async def sem_cache_velha(pedido, seguinte):
+    """A pagina, o JS e o CSS sao sempre confirmados com o servidor, para nao ficar uma versao antiga no browser."""
+    resposta = await seguinte(pedido)
+    caminho = pedido.url.path
+    if caminho == "/" or caminho.endswith((".html", ".js", ".css")):
+        resposta.headers["Cache-Control"] = "no-cache"
+    return resposta
 db.preparar()  # cria as tabelas na primeira vez; nao faz nada sem DATABASE_URL
 
 

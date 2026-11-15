@@ -245,7 +245,7 @@ async function desenharMapa(distritoId) {
     const g = await pedir("/api/geo/" + distritoId);
     mapa = L.map("mapa", { scrollWheelZoom: false });
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 13, attribution: "© OpenStreetMap" }).addTo(mapa);
-    if (g.provincia) L.geoJSON(g.provincia, { style: { color: "#0f172a", weight: 1.5, dashArray: "6 6", fill: false }, interactive: false }).addTo(mapa);
+    if (g.provincia) L.geoJSON(g.provincia, { style: { color: "#1f3d2b", weight: 1.5, dashArray: "6 6", fill: false }, interactive: false }).addTo(mapa);
     const distrito = L.geoJSON(g.distrito, { style: { color: "#f59e0b", weight: 4, fillColor: "#facc15", fillOpacity: 0.18, className: "brilho" } }).addTo(mapa);
     mapa.fitBounds(distrito.getBounds().pad(0.6));
 
@@ -506,6 +506,27 @@ $("mais-culturas").addEventListener("click", (e) => {
   if (recolhida) $("culturas").scrollIntoView();
 });
 
+// ---------- Carrossel do topo: soja, feijao nhemba, mandioca ----------
+(() => {
+  const slides = [...document.querySelectorAll("#heroi .slide")];
+  const pontos = [...document.querySelectorAll("#heroi-pontos button")];
+  // nome da cultura na lingua da pagina (ingles por omissao)
+  const NOMES = { en: ["Soybean", "Cowpea", "Cassava"], pt: ["Soja", "Feijão nhemba", "Mandioca"], ts: ["Soja", "Tinyawu", "Mandioca"] };
+  let actual = 0, relogio = null;
+  const mostrarSlide = (n) => {
+    actual = (n + slides.length) % slides.length;
+    const nomes = NOMES[document.documentElement.dataset.lingua] || NOMES.en;
+    slides.forEach((s, i) => s.classList.toggle("activo", i === actual));
+    pontos.forEach((p, i) => { p.setAttribute("aria-current", i === actual); p.setAttribute("aria-label", nomes[i]); });
+    $("heroi-cultura").textContent = nomes[actual];
+  };
+  window.nomesHeroi = () => mostrarSlide(actual);
+  // muda sozinho a cada 10 segundos (com "reduzir movimento" no sistema, muda sem animacao)
+  const comecar = () => { clearInterval(relogio); relogio = setInterval(() => mostrarSlide(actual + 1), 10000); };
+  pontos.forEach((p, i) => p.addEventListener("click", () => { mostrarSlide(i); comecar(); }));
+  comecar();
+})();
+
 // ---------- Linguas ----------
 // O portugues e o texto de origem. Para as outras linguas, cada pedaco de texto da pagina e
 // enviado a /api/traduzir (que guarda as traducoes na base de dados) e trocado no sitio.
@@ -603,6 +624,8 @@ $("linguas").addEventListener("click", (e) => {
   menuIdioma(false);
   if (!nova || nova === lingua) return;
   lingua = nova;
+  document.documentElement.dataset.lingua = lingua;
+  window.nomesHeroi?.();
   try { localStorage.setItem("xikomu-lingua-v2", lingua); } catch { /* sem armazenamento: so nao fica lembrado */ }
   $("linguas").querySelectorAll("button").forEach((b) => b.setAttribute("aria-checked", b.dataset.lingua === lingua));
   aplicarLingua();
@@ -612,6 +635,7 @@ iniciar().then(() => {
   let guardada = new URLSearchParams(location.search).get("lingua");
   try { guardada = guardada || localStorage.getItem("xikomu-lingua-v2"); } catch { /* ignora */ }
   guardada = guardada || "en";   // o ingles e a lingua principal
+  if (NOMES_LINGUA[guardada]) { document.documentElement.dataset.lingua = guardada; window.nomesHeroi?.(); }
   if (guardada !== "pt" && NOMES_LINGUA[guardada]) {
     $("linguas").querySelector(`[data-lingua="${guardada}"]`).click();
     setTimeout(revelar, 4000);   // se a traducao demorar, mostra-se a pagina na mesma
