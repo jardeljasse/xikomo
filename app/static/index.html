@@ -39,65 +39,26 @@
           </span>
           xikomu.
         </a>
-        <nav class="menu" aria-label="Secções">
-          <a href="#analise">Análise</a>
-          <a href="#rotacoes">Rotações</a>
-          <a href="#alertas">SMS</a>
-          <a href="#historia">Histórico</a>
-          <a href="#culturas">Culturas</a>
-          <a href="#fontes">Fontes de dados</a>
-        </nav>
-        <div
-          class="linguas"
-          id="linguas"
-          role="group"
-          aria-label="Língua"
-          data-nt
-        >
-          <button
-            type="button"
-            data-lingua="en"
-            aria-pressed="false"
-            title="English"
-          >
-            ENG
+        <div class="idioma" id="idioma">
+          <button type="button" class="idioma-botao" id="idioma-botao" aria-expanded="false" aria-controls="linguas">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18z"/></svg>
+            <span>Mudar idioma</span>
+            <span aria-hidden="true" class="seta-baixo">▾</span>
           </button>
-          <button
-            type="button"
-            data-lingua="pt"
-            aria-pressed="true"
-            title="Português"
-          >
-            PT
-          </button>
-          <button
-            type="button"
-            data-lingua="ts"
-            aria-pressed="false"
-            title="Xitsonga (Changana)"
-          >
-            TS
-          </button>
+          <div class="linguas" id="linguas" role="menu" aria-label="Idioma" hidden data-nt>
+            <button type="button" role="menuitemradio" data-lingua="en" aria-checked="false">English</button>
+            <button type="button" role="menuitemradio" data-lingua="pt" aria-checked="true">Português</button>
+            <button type="button" role="menuitemradio" data-lingua="ts" aria-checked="false">Changana</button>
+          </div>
         </div>
-        <a class="assistente" href="#" data-abrir-assistente
-          ><span class="ponto"></span>Assistente agrícola</a
-        >
       </div>
     </header>
 
     <main>
       <section id="inicio" class="largura">
-        <p class="migalhas">
-          Moçambique <span aria-hidden="true">›</span>
-          <strong>Planeamento agrícola</strong>
-        </p>
         <div class="heroi">
           <p class="etiqueta clara">Orientação baseada em dados</p>
           <h1>A próxima boa colheita começa aqui.</h1>
-          <p class="heroi-texto">
-            Veja o que plantar na sua parcela, combinando o clima esperado e as
-            características do solo.
-          </p>
           <a class="botao claro" href="#analise">Começar a análise</a>
           <span class="heroi-selo">Clima por satélite · NASA POWER</span>
         </div>
@@ -113,7 +74,7 @@
             <div class="par">
               <label
                 >Província <span class="obrigatorio">*</span>
-                <select id="provincia" required data-nt></select>
+                <select id="provincia" required></select>
               </label>
               <label
                 >Distrito <span class="obrigatorio">*</span>
@@ -180,24 +141,6 @@
           </form>
 
           <div class="painel" id="painel" aria-live="polite">
-            <div id="vazio">
-              <p class="etiqueta">Uma visão para a sua parcela</p>
-              <h2>A sua análise começa aqui.</h2>
-              <p class="apoio">
-                As condições da data escolhida ajudam a escolher melhor a
-                cultura e a preparar o terreno.
-              </p>
-              <div class="moldura" aria-hidden="true"></div>
-              <div class="trio">
-                <div><b>Chuva</b><span>Previsão ou média</span></div>
-                <div><b>Temperatura</b><span>Previsão ou média</span></div>
-                <div><b>Solo</b><span>Mapa modelado</span></div>
-              </div>
-              <p class="nota seta">
-                Escolha o seu distrito e a data para consultar indicadores
-                locais e comparar as culturas mais adequadas.
-              </p>
-            </div>
             <div id="resultado" hidden></div>
           </div>
         </div>
@@ -215,92 +158,6 @@
             Faça primeiro a análise da sua parcela para ver as rotações
             sugeridas.
           </p>
-        </div>
-      </section>
-
-      <section id="alertas" class="largura seccao">
-        <p class="etiqueta">05 / Alertas por SMS</p>
-        <h2>Receba os alertas no telemóvel.</h2>
-        <p class="apoio">
-          Para quem não tem smartphone: basta um telemóvel simples, de qualquer
-          rede (Vodacom, Movitel ou Tmcel). Cada mensagem diz onde encontrar
-          mais informação: nesta página ou no centro digital mais próximo.
-        </p>
-        <div class="sms-grelha">
-          <div>
-            <ul class="sms-tipos">
-              <li>
-                <b>Boa altura para semear</b> quando há chuva prevista no início
-                da época, com as melhores culturas para o distrito.
-              </li>
-              <li>
-                <b>Período mau a chegar</b>: chuva forte com risco de cheia,
-                calor extremo ou época seca provável. Nesse caso, nada é
-                recomendado para semear sem rega.
-              </li>
-              <li>
-                <b>Ainda dá para culturas rápidas</b>: quando as chuvas acabam
-                daqui a uns dois meses, mas há culturas que produzem nesse
-                tempo.
-              </li>
-            </ul>
-            <form id="sms-form" class="sms-form" novalidate>
-              <label
-                >Número de telemóvel <span class="obrigatorio">*</span>
-                <input
-                  type="tel"
-                  id="sms-telefone"
-                  maxlength="20"
-                  placeholder="84 123 4567"
-                  autocomplete="tel"
-                />
-              </label>
-              <div class="par">
-                <label
-                  >Distrito <span class="obrigatorio">*</span>
-                  <select id="sms-distrito" data-nt></select>
-                </label>
-                <label
-                  >Língua das mensagens
-                  <select id="sms-lingua">
-                    <option value="pt">Português</option>
-                    <option value="en">English</option>
-                    <option value="ts">Xitsonga</option>
-                  </select>
-                </label>
-              </div>
-              <label class="consentimento"
-                ><input type="checkbox" id="sms-aceito" /> Aceito receber SMS do
-                xikomu sobre o tempo e as sementeiras neste distrito. O número
-                só é usado para estes alertas.</label
-              >
-              <p class="erro" id="sms-erro" role="alert" hidden></p>
-              <p class="nota sms-ok" id="sms-ok" role="status" hidden></p>
-              <div class="sms-botoes">
-                <button type="submit" class="botao">Receber alertas</button>
-                <button type="button" class="mais" id="sms-cancelar">
-                  Cancelar este número
-                </button>
-              </div>
-            </form>
-          </div>
-          <div class="sms-registo">
-            <div class="linha-titulo" style="margin-top: 0">
-              <h3>Mensagens enviadas</h3>
-              <span class="selo historico" id="sms-modo">simulação</span>
-            </div>
-            <p class="nota" style="margin-top: 0">
-              Nesta versão as mensagens não saem para a rede: ficam registadas
-              aqui para se ver o que cada pessoa receberia. Os números aparecem
-              escondidos.
-            </p>
-            <button type="button" class="botao-linha" id="sms-verificar">
-              <span>Verificar alertas agora</span
-              ><span aria-hidden="true">→</span>
-            </button>
-            <p class="nota" id="sms-resumo" role="status"></p>
-            <ol class="sms-lista" id="sms-lista"></ol>
-          </div>
         </div>
       </section>
 
@@ -561,8 +418,10 @@
         id="bot-botao"
         aria-expanded="false"
         aria-controls="janela-assistente"
+        aria-describedby="dica-assistente"
       >
         <span class="bot-etiqueta">xikomu assistente</span>
+        <span class="dica" id="dica-assistente" role="tooltip">Clique aqui para fazer perguntas específicas, caso a informação da página não o tenha esclarecido.</span>
         <span class="bot-icone"
           ><svg
             viewBox="0 0 24 24"

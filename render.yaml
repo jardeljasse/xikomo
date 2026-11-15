@@ -11,8 +11,6 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.8
-      - key: SITE_URL
-        value: https://xikomo.netlify.app
       - key: DATABASE_URL
         sync: false
       - key: ARCGIS_API_KEY

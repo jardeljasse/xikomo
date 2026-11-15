@@ -55,13 +55,9 @@ async function iniciar() {
     hoje = op.hoje;
     const provincias = [...new Set(ds.map((d) => d.provincia))].sort((a, b) => a.localeCompare(b, "pt"));
     $("provincia").innerHTML = '<option value="">Escolha a província</option>' +
-      provincias.map((p) => `<option>${esc(p)}</option>`).join("");
+      provincias.map((p) => `<option data-nt>${esc(p)}</option>`).join("");
     $("prioridades").innerHTML = Object.entries(op.prioridades).map(([k, v]) =>
       `<button type="button" role="radio" data-p="${k}" aria-checked="${k === prioridade}">${esc(v)}</button>`).join("");
-    // distritos para os alertas, agrupados por provincia
-    $("sms-distrito").innerHTML = '<option value="">—</option>' + provincias.map((p) =>
-      `<optgroup label="${esc(p)}">${ds.filter((d) => d.provincia === p).map((d) => `<option value="${d.id}">${esc(d.distrito)}</option>`).join("")}</optgroup>`).join("");
-    carregarSms();
     $("data").min = hoje;
     $("data").max = op.data_max;
     $("data").value = hoje;
@@ -137,7 +133,6 @@ $("formulario").addEventListener("submit", async (e) => {
     });
     mostrar(await pedir("/api/analise?" + q));
     ultimaConsulta = Object.fromEntries(q);
-    if (!$("sms-distrito").value) $("sms-distrito").value = $("distrito").value;
     reiniciarConversa();
     if (window.matchMedia("(max-width: 900px)").matches) $("painel").scrollIntoView();
   } catch (erro) {
@@ -357,8 +352,6 @@ function abrirAssistente(abrir) {
 }
 $("bot-botao").addEventListener("click", () => abrirAssistente($("janela-assistente").hidden));
 $("fechar-assistente").addEventListener("click", () => abrirAssistente(false));
-document.querySelectorAll("[data-abrir-assistente]").forEach((el) =>
-  el.addEventListener("click", (e) => { e.preventDefault(); abrirAssistente(true); }));
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") abrirAssistente(false); });
 $("pergunta-form").addEventListener("submit", (e) => { e.preventDefault(); perguntar($("pergunta").value); });
 $("sugestoes").addEventListener("click", (e) => { if (e.target.tagName === "BUTTON") perguntar(e.target.textContent); });
@@ -414,8 +407,19 @@ function mostrar(a) {
         .map(([k, v]) => `${esc(COBERTURA[k] || k.toLowerCase())} ${v.toFixed(0)}%`).join(" · ")
     : "";
 
+  // periodo que a recomendacao cobre: da sementeira ate a colheita mais tardia das 3 culturas mostradas
+  const tardia = a.culturas.slice(0, 3).filter((c) => c.ciclo)
+    .reduce((m, c) => (!m || c.ciclo.fim > m.ciclo.fim ? c : m), null);
+  const fimPeriodo = tardia ? tardia.ciclo.fim : a.data;
+  const futuros = a.previsao.filter((p) => p.data >= a.data);
+  const prevAte = futuros.length ? futuros[futuros.length - 1].data : null;
+  const periodo = tardia ? `
+    <p class="periodo">Período coberto por esta recomendação: <b>${dataLonga(a.data)} a ${dataLonga(fimPeriodo)}</b>
+    (${tardia.ciclo.dias} dias, até à colheita mais tardia das 3 culturas recomendadas: ${esc(tardia.nome)}).<br>
+    ${prevAte ? `Previsão do tempo: <b>${dataLonga(a.data)} a ${dataLonga(prevAte)}</b>. ` : ""}${prevAte && prevAte < fimPeriodo ? `De ${dataLonga(somarDias(prevAte, 1))} a ${dataLonga(fimPeriodo)}: o que costuma acontecer em cada mês, com dados desde 2000.` : !prevAte ? "Sem previsão do tempo para esta data: usamos o que costuma acontecer em cada mês, com dados desde 2000." : ""}</p>` : "";
+
   $("resultado").innerHTML = `
-    <p class="etiqueta">Recomendação para ${dataLonga(a.data)}</p>
+    <p class="etiqueta">Recomendação para ${dataLonga(a.data)}${fimPeriodo > a.data ? ` – ${dataLonga(fimPeriodo)}` : ""}</p>
     <h2>Culturas para a sua machamba.</h2>
     <p class="sub" data-nt>${esc(a.distrito)}, ${esc(a.provincia)}</p>
 
@@ -428,6 +432,7 @@ function mostrar(a) {
     </div>
 
     <div class="linha-titulo"><h3>Tempo esperado${info(previsao ? "Previsão do tempo para o dia escolhido. A humidade é a percentagem de vapor de água no ar: acima de 80% favorece doenças de fungos." : "Valores normais para este mês, calculados com muitos anos de dados. Não são uma previsão para este ano. A humidade é a percentagem de vapor de água no ar.")}</h3><span class="selo ${t.fonte}">${esc(t.rotulo)}</span></div>
+    ${periodo}
     <div class="trio">
       <div><b>Chuva</b><span class="valor">${t.chuva_mm} <small>mm</small></span><span>${esc(t.chuva_rotulo)}</span></div>
       <div><b>Temperatura</b><span class="valor">${t.temp_c} <small>°C</small></span><span>${previsao ? `máx. ${t.tmax}° · mín. ${t.tmin}°` : "média do mês"}</span></div>
@@ -442,9 +447,9 @@ function mostrar(a) {
     ${a.epoca ? blocoEpoca(a.epoca, a.previsao_epoca) : ""}
 
     <div class="linha-titulo"><h3>Mais recomendadas${info("A percentagem de compatibilidade diz até que ponto a chuva, a temperatura e o solo do local servem para a cultura. 95% é o máximo: quase tudo dentro do ideal. Abaixo de 50%, pelo menos um factor está longe do que a cultura precisa. Não é a probabilidade de boa colheita.")}</h3><span>${a.culturas.length} culturas analisadas</span></div>
-    <div id="top">${a.culturas.slice(0, 5).map((c, i) => cartaoCultura(c, i + 1)).join("")}</div>
-    <div id="resto" hidden>${a.culturas.slice(5).map((c, i) => cartaoCultura(c, i + 6)).join("")}</div>
-    <button type="button" class="mais" id="ver-mais">Ver as ${a.culturas.length} culturas</button>
+    <div id="top">${a.culturas.slice(0, 3).map((c, i) => cartaoCultura(c, i + 1)).join("")}</div>
+    <div id="resto" hidden>${a.culturas.slice(3).map((c, i) => cartaoCultura(c, i + 4)).join("")}</div>
+    ${a.culturas.length > 3 ? '<button type="button" class="mais" id="ver-mais">Ver mais</button>' : ""}
 
     ${(a.permanentes || []).length ? `
     <div class="linha-titulo"><h3>Culturas permanentes${info("Culturas que ficam vários anos no terreno, como a cana e as árvores de fruto. Não entram na rotação. A percentagem compara a chuva de um ano inteiro, a temperatura média e o solo com o que a cultura precisa.")}</h3><span>fora da rotação</span></div>
@@ -457,8 +462,7 @@ function mostrar(a) {
 
     <button type="button" class="botao" id="comparar">Comparar rotações <span aria-hidden="true">→</span></button>`;
   $("comparar").addEventListener("click", () => abrirSeccao("rotacoes"));
-  $("ver-mais").addEventListener("click", (e) => { $("resto").hidden = false; e.target.remove(); });
-  $("vazio").hidden = true;
+  $("ver-mais")?.addEventListener("click", (e) => { $("resto").hidden = false; e.target.remove(); });
   $("resultado").hidden = false;
 
   mostrarHistoria(a);
@@ -487,15 +491,6 @@ function mostrar(a) {
     </div>`;
 }
 
-// ---------- Menu: marcar a seccao visivel ----------
-const ligacoes = [...document.querySelectorAll(".menu a")];
-const observador = new IntersectionObserver((entradas) => {
-  entradas.forEach((en) => {
-    if (en.isIntersecting) ligacoes.forEach((l) => l.classList.toggle("activo", l.getAttribute("href") === "#" + en.target.id));
-  });
-}, { rootMargin: "-45% 0px -50% 0px" });
-ligacoes.forEach((l) => observador.observe(document.querySelector(l.getAttribute("href"))));
-
 // Seccoes escondidas ou recolhidas: abrem quando se vai para la
 function abrirSeccao(id) {
   const alvo = $(id);
@@ -504,73 +499,11 @@ function abrirSeccao(id) {
   if (detalhes) detalhes.open = true;
   alvo.scrollIntoView();
 }
-ligacoes.forEach((l) => l.addEventListener("click", (e) => { e.preventDefault(); abrirSeccao(l.getAttribute("href").slice(1)); }));
 
 $("mais-culturas").addEventListener("click", (e) => {
   const recolhida = $("lista-culturas").classList.toggle("recolhida");
   e.target.textContent = recolhida ? "Ver mais culturas" : "Ver menos";
   if (recolhida) $("culturas").scrollIntoView();
-});
-
-// ---------- Alertas por SMS ----------
-const TIPOS_SMS = { boas_vindas: "Inscrição", bom: "Boa altura para semear", mau: "Período mau", curto: "Culturas rápidas" };
-
-function avisoSms(erro, ok) {
-  $("sms-erro").textContent = erro || ""; $("sms-erro").hidden = !erro;
-  $("sms-ok").textContent = ok || ""; $("sms-ok").hidden = !ok;
-}
-
-async function carregarSms() {
-  try {
-    const r = await pedir("/api/sms/mensagens");
-    $("sms-modo").textContent = r.modo === "simulado" ? "simulação" : "envio real";
-    $("sms-verificar").hidden = r.modo !== "simulado";
-    $("sms-lista").innerHTML = r.mensagens.length ? r.mensagens.map((m) => `
-      <li class="${esc(m.tipo)}">
-        <div class="cab" data-nt><span>${esc(m.telefone)} · ${esc(m.operadora)} · ${esc(m.distrito || "")}</span><span>${esc(m.quando.replace("T", " "))}</span></div>
-        <div class="cab"><span>${esc(TIPOS_SMS[m.tipo] || m.tipo)}</span><span>${m.caracteres} caracteres · ${m.segmentos} SMS</span></div>
-        <div class="corpo-sms" data-nt>${esc(m.texto)}</div>
-      </li>`).join("") : '<li>Ainda não há mensagens.</li>';
-  } catch (e) {
-    $("sms-lista").innerHTML = `<li>${esc(e.message)}</li>`;
-    $("sms-verificar").hidden = true;
-  }
-}
-
-async function enviarSms(caminho, corpo) {
-  const r = await fetch(caminho, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(corpo) });
-  const dados = await r.json().catch(() => ({}));
-  if (!r.ok) throw new Error(typeof dados.detail === "string" ? dados.detail : "Não foi possível concluir. Tente de novo.");
-  return dados;
-}
-
-$("sms-form").addEventListener("submit", async (e) => {
-  e.preventDefault();
-  avisoSms();
-  if (!$("sms-telefone").value.trim()) return avisoSms("Escreva o número de telemóvel.");
-  if (!$("sms-distrito").value) return avisoSms("Escolha o distrito.");
-  if (!$("sms-aceito").checked) return avisoSms("Para receber alertas, marque que aceita receber SMS.");
-  try {
-    const r = await enviarSms("/api/sms/assinar", { telefone: $("sms-telefone").value, distrito_id: Number($("sms-distrito").value), lingua: $("sms-lingua").value });
-    avisoSms(null, `Inscrito: ${r.telefone} (${r.operadora}), alertas de ${r.distrito}.`);
-    carregarSms();
-  } catch (erro) { avisoSms(erro.message); }
-});
-$("sms-cancelar").addEventListener("click", async () => {
-  avisoSms();
-  if (!$("sms-telefone").value.trim()) return avisoSms("Escreva o número que quer cancelar.");
-  try {
-    const r = await enviarSms("/api/sms/cancelar", { telefone: $("sms-telefone").value });
-    avisoSms(null, r.cancelado ? "Este número deixou de receber alertas." : "Este número não estava inscrito.");
-  } catch (erro) { avisoSms(erro.message); }
-});
-$("sms-verificar").addEventListener("click", async () => {
-  $("sms-resumo").textContent = "A verificar…";
-  try {
-    const r = await enviarSms("/api/sms/verificar", {});
-    $("sms-resumo").textContent = `${r.assinantes} inscritos · ${r.enviadas} alertas novos · ${r.sem_alerta} sem alerta${r.erros ? ` · ${r.erros} com erro` : ""}.`;
-    carregarSms();
-  } catch (erro) { $("sms-resumo").textContent = erro.message; }
 });
 
 // ---------- Linguas ----------
@@ -656,13 +589,22 @@ const observador2 = new MutationObserver(() => {
 });
 observador2.observe(document.body, { childList: true, subtree: true, characterData: true });
 
+// "Mudar idioma": abre e fecha a lista
+function menuIdioma(abrir) {
+  $("linguas").hidden = !abrir;
+  $("idioma-botao").setAttribute("aria-expanded", abrir);
+}
+$("idioma-botao").addEventListener("click", () => menuIdioma($("linguas").hidden));
+document.addEventListener("click", (e) => { if (!e.target.closest("#idioma")) menuIdioma(false); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") menuIdioma(false); });
+
 $("linguas").addEventListener("click", (e) => {
   const nova = e.target.dataset.lingua;
+  menuIdioma(false);
   if (!nova || nova === lingua) return;
   lingua = nova;
-  $("sms-lingua").value = lingua;   // as mensagens seguem a lingua da pagina, se a pessoa nao mudar
   try { localStorage.setItem("xikomu-lingua-v2", lingua); } catch { /* sem armazenamento: so nao fica lembrado */ }
-  $("linguas").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.lingua === lingua));
+  $("linguas").querySelectorAll("button").forEach((b) => b.setAttribute("aria-checked", b.dataset.lingua === lingua));
   aplicarLingua();
 });
 

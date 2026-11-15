@@ -7,7 +7,6 @@ e abrir http://localhost:8000
 """
 import json
 from datetime import date, timedelta
-from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import requests
@@ -17,16 +16,14 @@ from pydantic import BaseModel, Field
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 
-from . import assistente, clima, culturas, db, mapa_chuva, sms, traducao
+from . import assistente, clima, culturas, db, mapa_chuva, traducao
 
 AQUI = Path(__file__).parent
 DISTRITOS = json.loads((AQUI / "data" / "distritos.json").read_text(encoding="utf-8"))
 POR_ID = {d["id"]: d for d in DISTRITOS}
-MAPUTO = ZoneInfo("Africa/Maputo")
 
 app = FastAPI(title="xikomu")
 db.preparar()  # cria as tabelas na primeira vez; nao faz nada sem DATABASE_URL
-sms.preparar()
 
 
 @app.get("/api/distritos")
@@ -94,76 +91,6 @@ def chuva_mapa(ano: int, mes: int, bbox: str, largura: int, altura: int):
     if png is None:
         raise HTTPException(404, "Não há mapa de chuva para esse mês.")
     return Response(png, media_type="image/png", headers={"Cache-Control": "public, max-age=86400"})
-
-
-class Assinatura(BaseModel):
-    telefone: str = Field(max_length=30)
-    distrito_id: int = 0
-    lingua: str = Field(default="pt", pattern="^(pt|en|ts)$")
-
-
-def _sem_bd():
-    if not db.ACTIVA:
-        raise HTTPException(503, "Os alertas por SMS precisam da base de dados.")
-
-
-@app.post("/api/sms/assinar")
-def sms_assinar(p: Assinatura):
-    """Inscreve (ou actualiza) um numero nos alertas de um distrito e manda a mensagem de boas-vindas."""
-    _sem_bd()
-    telefone = sms.normalizar(p.telefone)
-    if not telefone:
-        raise HTTPException(422, "Número inválido. Use um telemóvel de Moçambique (82 a 87), por exemplo 84 123 4567.")
-    distrito = POR_ID.get(p.distrito_id)
-    if not distrito:
-        raise HTTPException(422, "Escolha o distrito.")
-    linha = db.executar(
-        "INSERT INTO assinantes (telefone, distrito_id, lingua, operadora) VALUES (%s, %s, %s, %s) "
-        "ON CONFLICT (telefone) DO UPDATE SET distrito_id = EXCLUDED.distrito_id, lingua = EXCLUDED.lingua, "
-        "activo = true, cancelado_em = NULL RETURNING id",
-        (telefone, p.distrito_id, p.lingua, sms.operadora(telefone)), ler=True)
-    if not linha:
-        raise HTTPException(503, "Não foi possível guardar a inscrição. Tente de novo.")
-    assinante = {"id": linha[0][0], "telefone": telefone, "distrito_id": p.distrito_id}
-    texto = sms.compor("boas_vindas", p.lingua, p.distrito_id, distrito=distrito["distrito"])
-    estado = sms.enviar(assinante, "boas_vindas", None, texto)
-    return {"telefone": sms.mascarar(telefone), "operadora": sms.operadora(telefone),
-            "distrito": distrito["distrito"], "estado": estado}
-
-
-@app.post("/api/sms/cancelar")
-def sms_cancelar(p: Assinatura):
-    _sem_bd()
-    telefone = sms.normalizar(p.telefone)
-    if not telefone:
-        raise HTTPException(422, "Número inválido.")
-    linhas = db.executar("UPDATE assinantes SET activo = false, cancelado_em = now() "
-                         "WHERE telefone = %s AND activo RETURNING id", (telefone,), ler=True)
-    return {"cancelado": bool(linhas)}
-
-
-@app.post("/api/sms/verificar")
-def sms_verificar():
-    """Corre os alertas agora. So em modo simulado: com envio real isto corre por cron
-    (enviar_alertas.py), para ninguem poder gastar SMS a partir da pagina."""
-    _sem_bd()
-    if sms.MODO != "simulado":
-        raise HTTPException(403, "Com envio real, os alertas correm só pelo enviar_alertas.py.")
-    return sms.verificar_todos(POR_ID)
-
-
-@app.get("/api/sms/mensagens")
-def sms_mensagens(limite: int = 30):
-    """Ultimas mensagens, com o numero mascarado."""
-    _sem_bd()
-    linhas = db.executar(
-        "SELECT s.criada_em, a.telefone, a.operadora, s.distrito_id, s.tipo, s.texto, s.caracteres, "
-        "s.segmentos, s.estado FROM sms s JOIN assinantes a ON a.id = s.assinante_id "
-        "ORDER BY s.id DESC LIMIT %s", (max(1, min(limite, 100)),), ler=True) or []
-    return {"modo": sms.MODO, "mensagens": [{
-        "quando": l[0].astimezone(MAPUTO).strftime("%Y-%m-%d %H:%M"), "telefone": sms.mascarar(l[1]), "operadora": l[2],
-        "distrito": POR_ID.get(l[3], {}).get("distrito"), "tipo": l[4], "texto": l[5],
-        "caracteres": l[6], "segmentos": l[7], "estado": l[8]} for l in linhas]}
 
 
 class Traduzir(BaseModel):

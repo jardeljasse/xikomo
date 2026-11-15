@@ -275,7 +275,7 @@ def tempo_para_a_data(clima, previsao, dia, serie=None):
 
 
 def alertas(clima, previsao, dia, cobertura):
-    """Avisos simples. Os mesmos avisos vao alimentar o servico de SMS."""
+    """Avisos simples sobre o tempo previsto."""
     lista = []
     visto = set()
     for p in previsao:
