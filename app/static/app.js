@@ -29,9 +29,18 @@ function mostrarErro(texto) {
   $("erro").hidden = !texto;
 }
 
-async function pedir(url) {
+// O servidor gratuito (Render) adormece sem uso e demora ~1 min a acordar; o Netlify desiste ao fim de ~26 s
+// (502/503/504). Nesses casos espera um pouco e tenta outra vez, ate 3 tentativas.
+async function pedir(url, tentativa = 1) {
   let r;
-  try { r = await fetch(url); } catch { throw new Error("Sem ligação ao servidor. Verifique a internet e tente de novo."); }
+  try { r = await fetch(url); } catch {
+    if (tentativa < 3) { await new Promise((ok) => setTimeout(ok, 3000)); return pedir(url, tentativa + 1); }
+    throw new Error("Sem ligação ao servidor. Verifique a internet e tente de novo.");
+  }
+  if ([502, 503, 504].includes(r.status) && tentativa < 3) {
+    await new Promise((ok) => setTimeout(ok, 3000));
+    return pedir(url, tentativa + 1);
+  }
   if (!r.ok) {
     const corpo = await r.json().catch(() => ({}));
     throw new Error(typeof corpo.detail === "string" ? corpo.detail : "O servidor não conseguiu responder. Tente de novo.");
@@ -550,7 +559,18 @@ function nosDeTexto() {
   return lista;
 }
 
+// So uma traducao de cada vez: se a pagina mudar entretanto, faz-se uma unica volta extra no fim.
+// (Sem isto, cada mudanca na pagina lancava mais pedidos /api/traduzir em paralelo e entupia o servidor.)
+let traduzindo = false, repetir = false;
 async function aplicarLingua() {
+  if (traduzindo) { repetir = true; return; }
+  traduzindo = true;
+  try {
+    do { repetir = false; await traduzirPagina(); } while (repetir);
+  } finally { traduzindo = false; }
+}
+
+async function traduzirPagina() {
   const nos = nosDeTexto();
   for (const n of nos) {
     const g = originais.get(n);
