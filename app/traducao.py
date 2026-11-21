@@ -14,7 +14,7 @@ import anthropic
 
 from . import db
 
-MODELO = "claude-opus-5-5"
+MODELO = "claude-haiku-5-5"   # o mais barato; cada frase so e traduzida uma vez
 LINGUAS = {"en": "English", "ts": "Xitsonga (Tsonga / Xichangana, as spoken in southern Mozambique)"}
 _memoria = {lingua: {} for lingua in LINGUAS}
 _trinco = threading.Lock()
@@ -40,7 +40,7 @@ def _pedir(lingua, textos):
     if _cliente is None:
         _cliente = anthropic.Anthropic()
     try:
-        resposta = _cliente.beta.messages.create(
+        resposta = _cliente.messages.create(
             model=MODELO,
             max_tokens=16000,
             system=INSTRUCOES,
@@ -53,8 +53,6 @@ def _pedir(lingua, textos):
                     "properties": {"traducoes": {"type": "array", "items": {"type": "string"}}},
                     "required": ["traducoes"], "additionalProperties": False}},
             },
-            betas=["server-side-fallback-2026-07-01"],
-            fallbacks="default",
         )
     except anthropic.RateLimitError:
         print("Traducao: limite de pedidos atingido")

@@ -29,9 +29,18 @@ function mostrarErro(texto) {
   $("erro").hidden = !texto;
 }
 
-async function pedir(url) {
+// O servidor gratuito (Render) adormece sem uso e demora ~1 min a acordar; o Netlify desiste ao fim de ~26 s
+// (502/503/504). Nesses casos espera um pouco e tenta outra vez, ate 3 tentativas.
+async function pedir(url, tentativa = 1) {
   let r;
-  try { r = await fetch(url); } catch { throw new Error("Sem ligação ao servidor. Verifique a internet e tente de novo."); }
+  try { r = await fetch(url); } catch {
+    if (tentativa < 3) { await new Promise((ok) => setTimeout(ok, 3000)); return pedir(url, tentativa + 1); }
+    throw new Error("Sem ligação ao servidor. Verifique a internet e tente de novo.");
+  }
+  if ([502, 503, 504].includes(r.status) && tentativa < 3) {
+    await new Promise((ok) => setTimeout(ok, 3000));
+    return pedir(url, tentativa + 1);
+  }
   if (!r.ok) {
     const corpo = await r.json().catch(() => ({}));
     throw new Error(typeof corpo.detail === "string" ? corpo.detail : "O servidor não conseguiu responder. Tente de novo.");
@@ -309,10 +318,27 @@ function fala(papel, texto) {
   return p;
 }
 
+// Saudacao escrita ja em ingles e portugues (nao depende do servidor de traducao).
+// O nome do distrito fica num <span data-nt> para nunca ser traduzido.
+const SAUDACAO = {
+  en: ["You can ask about the analysis for ", ". I only answer with the data on this page."],
+  pt: ["Pode perguntar sobre a análise de ", ". Só respondo com os dados desta página."],
+};
+function saudar() {
+  const pronta = SAUDACAO[document.documentElement.dataset.lingua];
+  const [antes, depois] = pronta || SAUDACAO.pt;   // ts: vai em portugues e e traduzido como o resto da pagina
+  const p = fala("assistant", "");
+  if (pronta) p.dataset.nt = "";                   // ja esta na lingua certa: o tradutor nao lhe toca
+  const nome = document.createElement("span");
+  nome.dataset.nt = "";
+  nome.textContent = $("distrito").selectedOptions[0].textContent;
+  p.append(antes, nome, depois);
+}
+
 function reiniciarConversa() {
   conversa = [];
   $("conversa").innerHTML = "";
-  fala("assistant", "Pode perguntar sobre a análise de " + $("distrito").selectedOptions[0].textContent + ". Só respondo com os dados desta página.");
+  saudar();
   $("sugestoes").hidden = false;
   $("pergunta").disabled = $("perguntar").disabled = false;
 }
@@ -550,7 +576,18 @@ function nosDeTexto() {
   return lista;
 }
 
+// So uma traducao de cada vez: se a pagina mudar entretanto, faz-se uma unica volta extra no fim.
+// (Sem isto, cada mudanca na pagina lancava mais pedidos /api/traduzir em paralelo e entupia o servidor.)
+let traduzindo = false, repetir = false;
 async function aplicarLingua() {
+  if (traduzindo) { repetir = true; return; }
+  traduzindo = true;
+  try {
+    do { repetir = false; await traduzirPagina(); } while (repetir);
+  } finally { traduzindo = false; }
+}
+
+async function traduzirPagina() {
   const nos = nosDeTexto();
   for (const n of nos) {
     const g = originais.get(n);
@@ -628,6 +665,7 @@ $("linguas").addEventListener("click", (e) => {
   window.nomesHeroi?.();
   try { localStorage.setItem("xikomu-lingua-v2", lingua); } catch { /* sem armazenamento: so nao fica lembrado */ }
   $("linguas").querySelectorAll("button").forEach((b) => b.setAttribute("aria-checked", b.dataset.lingua === lingua));
+  if (!conversa.length && $("conversa").firstChild) { $("conversa").innerHTML = ""; saudar(); }   // saudacao na nova lingua
   aplicarLingua();
 });
 

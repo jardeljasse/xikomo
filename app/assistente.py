@@ -10,7 +10,7 @@ import anthropic
 
 from . import db  # carrega o .env
 
-MODELO = "claude-opus-5-5"
+MODELO = "claude-haiku-5-5"   # o mais barato; chega para respostas curtas sobre os dados da pagina
 _cliente = None
 
 INSTRUCOES = """És o assistente agrícola do xikomu, uma página que ajuda pequenos agricultores e técnicos de extensão de Moçambique a decidir o que semear, onde e quando.
@@ -69,16 +69,13 @@ def responder(analise, conversa):
     mensagens = [dict(m) for m in conversa]
     mensagens[0]["content"] = f"<dados>\n{_resumo(analise)}\n</dados>\n\n{mensagens[0]['content']}"
     try:
-        resposta = _cliente.beta.messages.create(
+        resposta = _cliente.messages.create(
             model=MODELO,
             max_tokens=4000,
             system=INSTRUCOES,
             messages=mensagens,
             output_config={"effort": "low"},      # conversa curta: respostas rapidas
             cache_control={"type": "ephemeral"},  # as instrucoes e os dados repetem-se entre perguntas
-            # se o modelo recusar por seguranca, a API tenta outro modelo recomendado
-            betas=["server-side-fallback-2026-07-01"],
-            fallbacks="default",
         )
     except anthropic.AuthenticationError:
         return None, "A chave da API da Anthropic não é válida. Verifique ANTHROPIC_API_KEY no ficheiro .env."
